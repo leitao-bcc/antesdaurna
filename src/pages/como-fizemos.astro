@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import { emExemplo } from '../lib/dados.mjs';
+import { REPO, REPORTAR_ERRO } from '../lib/site.mjs';
+---
+<Base titulo="Como fizemos" descricao="Fontes, critérios e uso de IA nos resumos do Antes da Urna.">
+  <div class="miolo">
+    <h1 class="h2">Como fizemos</h1>
+    {emExemplo && <p class="aviso-exemplo" role="note">Esta versão ainda usa conteúdo de exemplo. As etapas abaixo descrevem o processo previsto para a publicação.</p>}
+    <div class="texto-longo">
+      <h2>Fonte única</h2>
+      <p>Usamos apenas os planos de governo registrados no TSE (DivulgaCandContas). Cada proposta traz o resumo, o trecho original e um link para a página exata do plano.</p>
+      <h2>Mesmo tratamento</h2>
+      <p>Os dois candidatos têm o mesmo espaço, os mesmos temas e o mesmo tom. Com JavaScript ligado, a ordem é sorteada a cada visita; sem JavaScript, o site não consegue sortear e mostra sempre o Candidato A primeiro. As letras A e B são só rótulos e não indicam preferência.</p>
+      <h2>O que vira proposta</h2>
+      <p>Agrupamos o que cada plano escreve nos oito temas do site. Se um plano não trata de um tema, e isso foi conferido por uma pessoa, aparece "não consta no plano". Enquanto o tema não foi conferido, aparece "em revisão". Não usamos nada além dos planos: sem notícias, entrevistas ou redes sociais.</p>
+      <h2>Resumos e inteligência artificial</h2>
+      <p>Os resumos são escritos com apoio de inteligência artificial e revisados por uma pessoa antes de entrar no site. Seguem a regra de linguagem simples e sem adjetivos valorativos ("propõe X"). O trecho original fica sempre à disposição para conferência.</p>
+      <h2>Quiz às cegas</h2>
+      <p>O quiz mostra propostas sem nome e revela a autoria só no fim. Em cada pergunta sorteamos uma proposta de cada plano para o tema. Temas em que um dos planos não tem proposta ficam de fora, e avisamos quando isso acontece. O quiz não é recomendação de voto.</p>
+      <h2>Privacidade</h2>
+      <p>Não usamos cookies nem pedimos dados pessoais, e não armazenamos IP. Medimos só contagens agregadas de acesso e uso. Guardamos no seu aparelho apenas a preferência de texto maior (localStorage), que não é enviada a ninguém.</p>
+      <h2>Quem faz e licença</h2>
+      <p>Projeto independente e apartidário, sem impulsionamento pago. O código é MIT e os textos e dados são CC BY 4.0, no <a href={REPO} rel="noopener">GitHub</a>.</p>
+      <h2>Limitações e correções</h2>
+      <p>Resumos podem conter erros. Se você encontrar um, <a href={REPORTAR_ERRO} rel="noopener">conte pra gente</a> indicando o tema, a proposta e a página do plano original. Só corrigimos com base no plano registrado no TSE.</p>
+    </div>
+  </div>
+</Base>

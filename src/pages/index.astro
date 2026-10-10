@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import Comparador from '../components/Comparador.astro';
+import Busca from '../components/Busca.astro';
+import Quiz from '../components/Quiz.astro';
+import { candidatos } from '../lib/dados.mjs';
+const [a, b] = candidatos;
+---
+<Base>
+  <section class="hero">
+    <div class="hero-texto">
+      <span class="selo">Independente e apartidário · 2º turno, 25 de outubro</span>
+      <h1>Duas propostas.<br />Uma decisão <em>sua</em>.</h1>
+      <p>Compare os planos de governo registrados no TSE, lado a lado, em linguagem simples. Sem opinião nossa, só o que cada candidatura escreveu.</p>
+      <div class="hero-acoes">
+        <a class="btn btn-cheio" href="#areas">Comparar por área</a>
+        <a class="btn btn-vazio" href="#quiz">Testar às cegas</a>
+      </div>
+    </div>
+    <div class="hero-cartoes" aria-hidden="true" data-sorteio>
+      <div class="cartao-cand a" data-lado="a"><b>{a.letra}</b><span>{a.nome}</span></div>
+      <div class="cartao-cand b" data-lado="b"><b>{b.letra}</b><span>{b.nome}</span></div>
+    </div>
+  </section>
+  <Comparador />
+  <Busca />
+  <Quiz />
+  <section class="miolo" aria-labelledby="t-metodo">
+    <h2 class="h2" id="t-metodo">Como fizemos</h2>
+    <div class="cartoes">
+      <div class="cartao"><strong>Fonte única</strong><p>Planos de governo registrados no TSE (DivulgaCandContas), com link para cada página citada.</p></div>
+      <div class="cartao"><strong>Mesmo tratamento</strong><p>Mesmo espaço, mesmos temas e ordem sorteada. Se um plano não fala de um tema, mostramos "não consta no plano".</p></div>
+      <div class="cartao"><strong>Resumos com IA e revisão humana</strong><p>Os resumos são feitos com apoio de inteligência artificial e revisados por uma pessoa. <a href="/como-fizemos/">Saiba mais</a>.</p></div>
+    </div>
+  </section>
+</Base>

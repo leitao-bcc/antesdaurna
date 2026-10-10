@@ -1,0 +1,99 @@
+---
+import { candidatos, propostasDe } from '../lib/dados.mjs';
+import { AREAS } from '../lib/areas.mjs';
+// Só entram áreas em que os dois planos têm proposta. Os rótulos A/B ficam só nos dados;
+// a tela mostra X/Y, e a proposta de cada plano é sorteada a cada pergunta.
+const todas = AREAS.map((a) => {
+  const [pa, pb] = candidatos.map((c) => propostasDe(c, a.nome).map((p) => p.resumo));
+  return pa.length && pb.length ? { tema: a.nome, a: pa, b: pb } : null;
+});
+const perguntas = todas.filter(Boolean);
+const omitidas = todas.length - perguntas.length;
+const nomes = Object.fromEntries(candidatos.map((c) => [c.id, `Candidato ${c.letra} · ${c.nome}`]));
+// Escapa "<" para que um texto com </script> nunca feche o bloco antes da hora.
+const json = JSON.stringify({ perguntas, nomes }).replace(/</g, '\\u003c');
+---
+<section id="quiz" class="quiz" aria-labelledby="t-quiz">
+  <div class="miolo">
+    <div>
+      <p class="rotulo" id="quiz-progresso" aria-live="polite">Às cegas</p>
+      <h2 class="h2" id="t-quiz">Qual proposta você prefere?</h2>
+      <p class="suave">Sem nomes e sem cores. No fim, a gente revela de quem era cada uma. Isto não é recomendação de voto.</p>
+      {omitidas > 0 && <p class="suave">{omitidas} {omitidas === 1 ? 'tema ficou' : 'temas ficaram'} de fora porque um dos planos não trata dele (ou ainda está em revisão).</p>}
+    </div>
+    <div id="quiz-pergunta" hidden>
+      <p class="rotulo rotulo-tema" id="quiz-tema" tabindex="-1"></p>
+      <div class="opcoes" aria-live="polite">
+        <button type="button" class="opcao" id="op-x"><b>Proposta X</b><span id="txt-x"></span></button>
+        <button type="button" class="opcao" id="op-y"><b>Proposta Y</b><span id="txt-y"></span></button>
+      </div>
+    </div>
+    <div id="quiz-fim" class="quiz-fim" hidden>
+      <h3 id="quiz-resultado" tabindex="-1"></h3>
+      <p class="aviso-voto">Isso não é recomendação de voto: é só um espelho das suas escolhas. Veja as propostas completas antes de decidir.</p>
+      <ul id="quiz-revelacao"></ul>
+      <button type="button" class="btn btn-cheio" id="quiz-refazer">Refazer</button>
+    </div>
+    <noscript><p class="suave">O quiz precisa de JavaScript. Você pode ler as propostas por área acima.</p></noscript>
+    <script type="application/json" id="quiz-dados" set:html={json} />
+  </div>
+</section>
+<script>
+  type P = { tema: string; a: string[]; b: string[] };
+  const { perguntas, nomes } = JSON.parse(document.getElementById('quiz-dados')!.textContent!) as { perguntas: P[]; nomes: Record<string, string> };
+  const $ = (id: string) => document.getElementById(id)!;
+  const sorteia = <T,>(v: T[]) => v[Math.floor(Math.random() * v.length)];
+  const embaralhar = <T,>(v: T[]) => {
+    const r = [...v];
+    for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; }
+    return r;
+  };
+
+  type Rodada = { tema: string; a: string; b: string; xEhA: boolean };
+  let rodadas: Rodada[] = [];
+  let escolhas: ('a' | 'b')[] = [];
+  let passo = 0;
+
+  const iniciar = () => {
+    rodadas = embaralhar(perguntas).map((p) => ({ tema: p.tema, a: sorteia(p.a), b: sorteia(p.b), xEhA: Math.random() < 0.5 }));
+    escolhas = [];
+    passo = 0;
+    $('quiz-fim').hidden = true;
+    mostrar();
+  };
+
+  const mostrar = () => {
+    if (!rodadas.length) { $('quiz-progresso').textContent = 'Sem propostas para comparar ainda.'; return; }
+    const r = rodadas[passo];
+    $('quiz-pergunta').hidden = false;
+    $('quiz-progresso').textContent = `Às cegas · ${passo + 1} de ${rodadas.length}`;
+    $('quiz-tema').textContent = r.tema;
+    $('txt-x').textContent = r.xEhA ? r.a : r.b;
+    $('txt-y').textContent = r.xEhA ? r.b : r.a;
+  };
+
+  const responder = (escolheuX: boolean) => {
+    escolhas.push(escolheuX === rodadas[passo].xEhA ? 'a' : 'b');
+    passo++;
+    if (passo < rodadas.length) { mostrar(); $('quiz-tema').focus(); return; }
+    $('quiz-pergunta').hidden = true;
+    $('quiz-progresso').textContent = 'Às cegas · resultado';
+    const na = escolhas.filter((e) => e === 'a').length;
+    const nb = escolhas.length - na;
+    $('quiz-resultado').textContent = na === nb
+      ? 'Empate: você dividiu suas escolhas.'
+      : `Você escolheu mais propostas de ${na > nb ? nomes.a : nomes.b} (${Math.max(na, nb)} de ${escolhas.length}).`;
+    $('quiz-revelacao').replaceChildren(...rodadas.map((r, i) => {
+      const li = document.createElement('li');
+      li.textContent = `${r.tema}: você escolheu a proposta de ${nomes[escolhas[i]]}.`;
+      return li;
+    }));
+    $('quiz-fim').hidden = false;
+    $('quiz-resultado').focus();
+  };
+
+  $('op-x').addEventListener('click', () => responder(true));
+  $('op-y').addEventListener('click', () => responder(false));
+  $('quiz-refazer').addEventListener('click', () => { iniciar(); $('quiz-tema').focus(); });
+  iniciar();
+</script>

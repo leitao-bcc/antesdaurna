@@ -1,0 +1,170 @@
+{
+  "id": "b",
+  "letra": "B",
+  "nome": "[Nome do candidato B]",
+  "status": "exemplo",
+  "cobertura": {
+    "Saúde": {
+      "consta": true,
+      "revisado": false
+    },
+    "Educação": {
+      "consta": true,
+      "revisado": false
+    },
+    "Segurança": {
+      "consta": true,
+      "revisado": false
+    },
+    "Economia": {
+      "consta": true,
+      "revisado": false
+    },
+    "Emprego e renda": {
+      "consta": true,
+      "revisado": false
+    },
+    "Meio ambiente": {
+      "consta": true,
+      "revisado": false
+    },
+    "Moradia": {
+      "consta": true,
+      "revisado": false
+    },
+    "Cultura e esporte": {
+      "consta": true,
+      "revisado": false
+    }
+  },
+  "propostas": [
+    {
+      "area": "Saúde",
+      "titulo": "[Exemplo: proposta 1 de Saúde]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Saúde",
+      "titulo": "[Exemplo: proposta 2 de Saúde]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Educação",
+      "titulo": "[Exemplo: proposta 1 de Educação]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Educação",
+      "titulo": "[Exemplo: proposta 2 de Educação]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Segurança",
+      "titulo": "[Exemplo: proposta 1 de Segurança]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Segurança",
+      "titulo": "[Exemplo: proposta 2 de Segurança]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Economia",
+      "titulo": "[Exemplo: proposta 1 de Economia]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Economia",
+      "titulo": "[Exemplo: proposta 2 de Economia]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Emprego e renda",
+      "titulo": "[Exemplo: proposta 1 de Emprego e renda]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Emprego e renda",
+      "titulo": "[Exemplo: proposta 2 de Emprego e renda]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Meio ambiente",
+      "titulo": "[Exemplo: proposta 1 de Meio ambiente]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Meio ambiente",
+      "titulo": "[Exemplo: proposta 2 de Meio ambiente]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Moradia",
+      "titulo": "[Exemplo: proposta 1 de Moradia]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Moradia",
+      "titulo": "[Exemplo: proposta 2 de Moradia]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Cultura e esporte",
+      "titulo": "[Exemplo: proposta 1 de Cultura e esporte]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "area": "Cultura e esporte",
+      "titulo": "[Exemplo: proposta 2 de Cultura e esporte]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import Colunas from '../../components/Colunas.astro';
+import { AREAS } from '../../lib/dados.mjs';
+
+export function getStaticPaths() {
+  return AREAS.map((area) => ({ params: { slug: area.slug }, props: { area } }));
+}
+const { area } = Astro.props;
+---
+<Base titulo={area.nome} descricao={`O que cada plano de governo registrado no TSE propõe para ${area.nome}, lado a lado.`}>
+  <div class="miolo" data-pagefind-body>
+    <p data-pagefind-ignore><a class="link-bloco" href="/#areas">← Todos os temas</a></p>
+    <h1 class="h2" data-pagefind-meta="title">{area.nome}</h1>
+    <p class="suave" data-pagefind-ignore>Com JavaScript ligado, a ordem dos candidatos é sorteada a cada visita.</p>
+    <Colunas area={area.nome} nivel={2} ancoras />
+  </div>
+</Base>

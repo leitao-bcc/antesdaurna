@@ -1,0 +1,23 @@
+{
+  "name": "antesdaurna",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "validar": "node scripts/validar-dados.mjs",
+    "build": "npm run validar && astro build && pagefind --site dist && node scripts/checar-build.mjs",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource/atkinson-hyperlegible": "^5.3.0",
+    "astro": "^7.3.8",
+    "pagefind": "^1.5.2"
+  }
+}
