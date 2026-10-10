@@ -1,0 +1,98 @@
+---
+const sugestoes = ['SUS', 'escola', 'polícia', 'imposto', 'salário', 'moradia'];
+---
+<section id="busca" class="miolo" aria-labelledby="t-busca">
+  <h2 class="h2" id="t-busca">O que importa pra você?</h2>
+  <noscript><p class="suave">A busca precisa de JavaScript. Você pode ler as propostas de cada tema na seção acima.</p></noscript>
+  <div class="so-js busca-ui">
+    <label for="q" class="rotulo-campo">Busque uma palavra ou tema</label>
+    <input id="q" class="campo" type="search" placeholder="Ex.: SUS, escola, imposto, polícia" autocomplete="off" />
+    <div class="chips">
+      {sugestoes.map((s) => <button type="button" class="chip" data-termo={s}>{s}</button>)}
+    </div>
+    <p class="suave" id="busca-status" aria-live="polite">Digite algo ou toque numa sugestão.</p>
+    <div class="resultados" id="busca-resultados"></div>
+  </div>
+</section>
+<script>
+  import { LADOS, ancoraPlano } from '../lib/ancoras.mjs';
+
+  const campo = document.getElementById('q') as HTMLInputElement;
+  const status = document.getElementById('busca-status')!;
+  const lista = document.getElementById('busca-resultados')!;
+  const URL_PAGEFIND = '/pagefind/pagefind.js'; // gerado por `pagefind --site dist`, depois do build
+  let carga: Promise<any> | undefined;
+  let seq = 0;
+  let timer: number | undefined;
+
+  const carregar = () =>
+    (carga ??= import(/* @vite-ignore */ URL_PAGEFIND)
+      .then(async (m: any) => { await m.options({ baseUrl: '/' }); return m; })
+      .catch(() => { carga = undefined; return null; }));
+
+  // O Pagefind devolve o excerpt como HTML escapado com <mark>. Montamos nós de DOM
+  // (nunca innerHTML) para que o texto do plano jamais seja interpretado como marcação.
+  const montarExcerpt = (html: string) => {
+    const frag = document.createDocumentFragment();
+    for (const parte of html.split(/(<mark>[\s\S]*?<\/mark>)/g)) {
+      if (!parte) continue;
+      const texto = new DOMParser().parseFromString(parte, 'text/html').body.textContent ?? '';
+      if (/^<mark>/.test(parte)) { const m = document.createElement('mark'); m.textContent = texto; frag.append(m); }
+      else frag.append(texto);
+    }
+    return frag;
+  };
+
+  const buscar = async (termo: string) => {
+    const id = ++seq;
+    const t = termo.trim();
+    if (!t) { lista.replaceChildren(); status.textContent = 'Digite algo ou toque numa sugestão.'; return; }
+    const pf = await carregar();
+    if (id !== seq) return;
+    if (!pf) { lista.replaceChildren(); status.textContent = 'A busca fica disponível no site publicado (depois do build).'; return; }
+    let dados: any[];
+    try {
+      const r = await pf.search(t);
+      dados = await Promise.all(r.results.slice(0, 8).map((x: any) => x.data()));
+    } catch {
+      if (id === seq) { lista.replaceChildren(); status.textContent = 'Não foi possível buscar agora. Tente de novo.'; }
+      return;
+    }
+    if (id !== seq) return;
+    status.textContent = dados.length
+      ? `${dados.length} tema(s) encontrado(s) para "${t}".`
+      : `Nada encontrado para "${t}" nos dois planos.`;
+    const ordem = document.documentElement.dataset.ordem === 'ba' ? [...LADOS].reverse() : LADOS;
+    const caixas = dados.map((d: any) => {
+      const caixa = document.createElement('div');
+      caixa.className = 'resultado';
+      const link = document.createElement('a');
+      link.className = 'link-bloco';
+      link.href = d.url;
+      link.textContent = d.meta?.title ?? 'Tema';
+      const trechos = document.createElement('div');
+      trechos.className = 'trechos';
+      for (const letra of ordem) {
+        const sub = (d.sub_results ?? []).find((s: any) => String(s.url).endsWith(`#${ancoraPlano(letra)}`));
+        const bloco = document.createElement('div');
+        bloco.className = `trecho ${letra}`;
+        const forte = document.createElement('strong');
+        forte.textContent = `Plano ${letra.toUpperCase()}`;
+        const corpo = document.createElement('span');
+        if (sub) corpo.append(montarExcerpt(sub.excerpt)); else corpo.textContent = 'Nenhum trecho com este termo.';
+        bloco.append(forte, corpo);
+        trechos.append(bloco);
+      }
+      caixa.append(link, trechos);
+      return caixa;
+    });
+    lista.replaceChildren(...caixas);
+  };
+
+  campo.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = window.setTimeout(() => buscar(campo.value), 200);
+  });
+  document.querySelectorAll<HTMLButtonElement>('[data-termo]').forEach((b) =>
+    b.addEventListener('click', () => { campo.value = b.dataset.termo!; buscar(campo.value); }));
+</script>

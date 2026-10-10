@@ -1,0 +1,44 @@
+---
+// Duas colunas (A e B) para uma área. Mesmo componente para os dois: mesmo espaço, mesmo tom.
+import { candidatos, propostasDe, situacao } from '../lib/dados.mjs';
+import { ancoraPlano } from '../lib/ancoras.mjs';
+
+interface Props {
+  area: string;
+  nivel?: number;        // nível do cabeçalho do candidato; as propostas ficam um nível abaixo
+  ancoras?: boolean;     // só uma vez por página (ids usados pela busca)
+}
+const { area, nivel = 3, ancoras = false } = Astro.props;
+const Cabecalho = `h${nivel}` as 'h2';
+const Titulo = `h${nivel + 1}` as 'h3';
+const linkPagina = (p: { link_pdf: string; pagina: number }) => (p.pagina > 0 ? `${p.link_pdf}#page=${p.pagina}` : p.link_pdf);
+---
+<div class="colunas" data-sorteio>
+  {candidatos.map((c) => {
+    const props = propostasDe(c, area);
+    const sit = situacao(c, area);
+    return (
+      <section class={`col col-${c.id}`} data-lado={c.id}>
+        <div class="col-topo">
+          <span class="col-letra" aria-hidden="true">{c.letra}</span>
+          <Cabecalho class="col-nome" id={ancoras ? ancoraPlano(c.id) : undefined}>Candidato {c.letra} · {c.nome}</Cabecalho>
+        </div>
+        <div class="col-corpo">
+          {sit === 'nao-consta' && <p class="nao-consta" data-pagefind-ignore>Não consta no plano.</p>}
+          {sit === 'em-revisao' && <p class="nao-consta" data-pagefind-ignore>Em revisão: ainda não conferimos este tema neste plano.</p>}
+          {props.map((p) => (
+            <article class="proposta">
+              <Titulo class="proposta-titulo">{p.titulo}</Titulo>
+              <p>{p.resumo}</p>
+              <details>
+                <summary>Trecho original do plano</summary>
+                <blockquote>{p.trecho_original}</blockquote>
+              </details>
+              <a class="link-plano" href={linkPagina(p)} rel="noopener">Ver no plano original{p.pagina > 0 ? `, pág. ${p.pagina}` : ''}</a>
+            </article>
+          ))}
+        </div>
+      </section>
+    );
+  })}
+</div>

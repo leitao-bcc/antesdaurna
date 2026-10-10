@@ -20,11 +20,24 @@ Este repositório é público de propósito: qualquer pessoa pode conferir de on
 | `data/` | Propostas em JSON, um arquivo por candidato ([formato](data/README.md)) |
 | `docs/` | Metodologia e critérios editoriais |
 | `prototipo/` | Protótipo visual aprovado (referência, não é código de produção) |
-| `src/`, `public/` | Site Astro (em construção) |
+| `src/`, `public/` | Site Astro |
+| `scripts/` | Validação dos dados antes do build |
 
 ## Stack
 
 Astro (site 100% estático) + Pagefind (busca no cliente), hospedado na Cloudflare Pages.
+
+## Rodando localmente
+
+```bash
+nvm use          # Node 24
+npm install
+npm run dev      # desenvolvimento (a busca só funciona após o build)
+npm run build    # valida dados, gera dist/ e indexa a busca
+npm run preview  # serve o dist/ com a busca funcionando
+```
+
+Deploy: veja [docs/deploy.md](docs/deploy.md).
 
 ## Encontrou um erro?
 

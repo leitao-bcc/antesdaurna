@@ -1,0 +1,31 @@
+---
+import { AREAS } from '../lib/dados.mjs';
+import Colunas from './Colunas.astro';
+---
+<section id="areas" class="faixa" aria-labelledby="t-areas">
+  <div class="miolo">
+    <div>
+      <h2 class="h2" id="t-areas">Escolha um tema</h2>
+      <p class="suave">Com JavaScript ligado, a ordem dos candidatos é sorteada a cada visita.</p>
+    </div>
+    <div class="abas" role="group" aria-label="Áreas">
+      {AREAS.map((a, i) => <button type="button" class="aba" data-aba={a.slug} aria-pressed={i === 0 ? 'true' : 'false'}>{a.nome}</button>)}
+    </div>
+    {AREAS.map((a, i) => (
+      <div class:list={['painel', { ativo: i === 0 }]} data-painel={a.slug}>
+        <h3 class="painel-titulo">{a.nome}</h3>
+        <Colunas area={a.nome} nivel={4} />
+        <p class="suave"><a class="link-bloco" href={`/tema/${a.slug}/`}>Abrir página só deste tema (para compartilhar)</a></p>
+      </div>
+    ))}
+  </div>
+</section>
+<script>
+  const abas = document.querySelectorAll<HTMLButtonElement>('[data-aba]');
+  const paineis = document.querySelectorAll<HTMLElement>('[data-painel]');
+  const mostrar = (slug: string) => {
+    abas.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.aba === slug)));
+    paineis.forEach((p) => p.classList.toggle('ativo', p.dataset.painel === slug));
+  };
+  abas.forEach((b) => b.addEventListener('click', () => mostrar(b.dataset.aba!)));
+</script>
