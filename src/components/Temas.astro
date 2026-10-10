@@ -1,0 +1,110 @@
+---
+// Navegação em dois níveis (assunto > tema) com a comparação na própria página.
+// Desktop: grade de assuntos + lista de temas; celular: dois seletores. Sem JavaScript: lista de links.
+import { BLOCOS_COM_TEMAS } from '../lib/blocos.mjs';
+import Colunas from './Colunas.astro';
+const total = BLOCOS_COM_TEMAS.reduce((n, b) => n + b.temas.length, 0);
+---
+<section id="temas" class="faixa" aria-labelledby="t-temas">
+  <div class="miolo">
+    <div>
+      <h2 class="h2" id="t-temas">Escolha um tema</h2>
+      <p class="suave">{total} temas em {BLOCOS_COM_TEMAS.length} assuntos. Com JavaScript ligado, a ordem dos candidatos é sorteada a cada visita.</p>
+    </div>
+
+    <div class="nav" data-nav data-vazio="true">
+      <p class="so-leitor" role="status" data-status></p>
+      <div class="nav-passo1">
+        <p class="nav-rotulo"><span class="nav-n" aria-hidden="true">1</span> Escolha o assunto</p>
+        <label class="nav-select-caixa sel-bloco">
+          <span class="so-leitor">Assunto</span>
+          <select class="nav-select" data-select-bloco autocomplete="off">
+            <option value="" disabled selected>Escolha um assunto…</option>
+            {BLOCOS_COM_TEMAS.map((b) => <option value={b.ancora}>{b.numero}. {b.nome}</option>)}
+          </select>
+        </label>
+        <div class="nav-nivel1" role="group" aria-label="Assuntos">
+          {BLOCOS_COM_TEMAS.map((b) => (
+            <button type="button" class="nav-bloco" data-bloco={b.ancora} aria-pressed="false">
+              <span class="nav-bloco-num" aria-hidden="true">{b.numero}</span>
+              <span class="nav-bloco-nome">{b.nome}</span>
+              <span class="nav-bloco-conta">{b.temas.length} {b.temas.length === 1 ? 'tema' : 'temas'}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div class="nav-corpo">
+        <div class="nav-passo2">
+          <p class="nav-rotulo"><span class="nav-n" aria-hidden="true">2</span> Escolha o tema</p>
+          <p class="nav-vazio" data-sem-bloco>Escolha um assunto para ver os temas.</p>
+          {BLOCOS_COM_TEMAS.map((b) => (
+            <div class="nav-grupo-temas" data-temas-de={b.ancora} hidden>
+              <label class="nav-select-caixa nav-select-tema">
+                <span class="so-leitor">Tema de {b.nome}</span>
+                <select class="nav-select" data-select-tema autocomplete="off">
+                  <option value="" disabled selected>Escolha um tema…</option>
+                  {b.temas.map((t) => <option value={t.slug}>{t.nome}</option>)}
+                </select>
+              </label>
+              <ul class="nav-lista">
+                {b.temas.map((t) => (
+                  <li><button type="button" class="nav-tema" data-tema={t.slug} aria-pressed="false">{t.nome}</button></li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        <div class="nav-resultado">
+          <p class="nav-dica">Escolha um assunto e um tema para ver o que os dois planos propõem, lado a lado.</p>
+          {BLOCOS_COM_TEMAS.flatMap((b) => b.temas.map((t) => (
+            <div class="painel" data-painel={t.slug}>
+              <p class="nav-trilha"><span>{b.nome}</span> › <strong>{t.nome}</strong></p>
+              <h3 class="painel-titulo">{t.nome}</h3>
+              <Colunas area={t.nome} nivel={4} />
+              <p class="suave"><a class="link-bloco" href={`/tema/${t.slug}/`}>Abrir só este tema (para compartilhar)</a></p>
+            </div>
+          )))}
+        </div>
+      </div>
+
+      <div class="nav-sem-js">
+        <p>Sem JavaScript, cada tema abre em uma página própria:</p>
+        {BLOCOS_COM_TEMAS.map((b) => (
+          <div>
+            <h3>{b.numero}. {b.nome}</h3>
+            <ul>{b.temas.map((t) => <li><a href={`/tema/${t.slug}/`}>{t.nome}</a></li>)}</ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  const raiz = document.querySelector<HTMLElement>('[data-nav]')!;
+  const q = <T extends Element>(s: string) => [...raiz.querySelectorAll<T>(s)];
+  const mostrarTema = (slug: string) => {
+    q<HTMLElement>('[data-painel]').forEach((p) => p.classList.toggle('ativo', p.dataset.painel === slug));
+    q<HTMLButtonElement>('[data-tema]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.tema === slug)));
+    q<HTMLSelectElement>('[data-select-tema]').forEach((s) => { if ([...s.options].some((o) => o.value === slug)) s.value = slug; });
+    raiz.dataset.vazio = 'false';
+    const nome = raiz.querySelector<HTMLElement>(`[data-painel="${slug}"] .painel-titulo`)?.textContent ?? '';
+    raiz.querySelector<HTMLElement>('[data-status]')!.textContent = `${nome}: comparação dos dois planos exibida abaixo.`;
+  };
+  const mostrarBloco = (id: string) => {
+    const atual = raiz.querySelector<HTMLElement>('[data-bloco][aria-pressed="true"]')?.dataset.bloco;
+    if (atual === id) return;
+    q<HTMLButtonElement>('[data-bloco]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.bloco === id)));
+    q<HTMLElement>('[data-temas-de]').forEach((g) => { g.hidden = g.dataset.temasDe !== id; });
+    q<HTMLSelectElement>('[data-select-bloco]').forEach((s) => { s.value = id; });
+    raiz.querySelector<HTMLElement>('[data-sem-bloco]')!.hidden = true;
+    const primeiro = raiz.querySelector<HTMLElement>(`[data-temas-de="${id}"] [data-tema]`);
+    if (primeiro) mostrarTema(primeiro.dataset.tema!);
+  };
+  q<HTMLSelectElement>('select').forEach((s) => { s.selectedIndex = 0; });
+  q<HTMLButtonElement>('[data-bloco]').forEach((b) => b.addEventListener('click', () => mostrarBloco(b.dataset.bloco!)));
+  q<HTMLButtonElement>('[data-tema]').forEach((b) => b.addEventListener('click', () => mostrarTema(b.dataset.tema!)));
+  q<HTMLSelectElement>('[data-select-bloco]').forEach((s) => s.addEventListener('change', () => mostrarBloco(s.value)));
+  q<HTMLSelectElement>('[data-select-tema]').forEach((s) => s.addEventListener('change', () => mostrarTema(s.value)));
+</script>

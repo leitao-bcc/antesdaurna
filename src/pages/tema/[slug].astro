@@ -2,17 +2,42 @@
 import Base from '../../layouts/Base.astro';
 import Colunas from '../../components/Colunas.astro';
 import { AREAS } from '../../lib/dados.mjs';
+import { blocoDoTema, vizinhos } from '../../lib/blocos.mjs';
 
 export function getStaticPaths() {
   return AREAS.map((area) => ({ params: { slug: area.slug }, props: { area } }));
 }
 const { area } = Astro.props;
+const bloco = blocoDoTema(area);
+const { anterior, proximo } = vizinhos(area.slug);
 ---
-<Base titulo={area.nome} descricao={`O que cada plano de governo registrado no TSE propõe para ${area.nome}, lado a lado.`}>
+<Base titulo={area.nome} descricao={`O que cada plano de governo registrado no TSE propõe sobre ${area.nome}, lado a lado.`}>
   <div class="miolo" data-pagefind-body>
-    <p data-pagefind-ignore><a class="link-bloco" href="/#areas">← Todos os temas</a></p>
+    <nav class="trilha" aria-label="Você está em" data-pagefind-ignore>
+      <ol>
+        <li><a href="/#temas">Temas</a></li>
+        <li><a href={`/#${bloco.ancora}`}>{bloco.nome}</a></li>
+        <li aria-current="page">{area.nome}</li>
+      </ol>
+    </nav>
     <h1 class="h2" data-pagefind-meta="title">{area.nome}</h1>
     <p class="suave" data-pagefind-ignore>Com JavaScript ligado, a ordem dos candidatos é sorteada a cada visita.</p>
     <Colunas area={area.nome} nivel={2} ancoras />
+
+    <nav class="irmaos" aria-labelledby="irmaos-t" data-pagefind-ignore>
+      <h2 class="irmaos-titulo" id="irmaos-t">Mais em {bloco.nome}</h2>
+      <ul>
+        {bloco.temas.map((t) => (
+          <li>{t.slug === area.slug
+            ? <span class="irmao irmao-atual">{t.nome}<span class="so-leitor"> (tema atual)</span></span>
+            : <a class="irmao" href={`/tema/${t.slug}/`}>{t.nome}</a>}</li>
+        ))}
+      </ul>
+    </nav>
+
+    <nav class="passos" aria-label="Navegar entre temas" data-pagefind-ignore>
+      {anterior ? <a class="passo passo-ant" href={`/tema/${anterior.slug}/`}><small>← Anterior</small><span>{anterior.nome}</span></a> : <span></span>}
+      {proximo ? <a class="passo passo-prox" href={`/tema/${proximo.slug}/`}><small>Próximo →</small><span>{proximo.nome}</span></a> : <span></span>}
+    </nav>
   </div>
 </Base>
