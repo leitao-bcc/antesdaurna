@@ -11,7 +11,7 @@
     "numero": "22",
     "partido": "PL",
     "trechos_conferidos_em": "2026-10-10",
-    "trechos_conferidos_sha256": "ceff0e35cc28e433289c709aa15afd313f3622bfd1b785e14993dd2143ef5a8b"
+    "trechos_conferidos_sha256": "94ba85a18764c9fdd3b1aefe62ead69ac3a91235398543c6109ddc627401a938"
   },
   "cobertura": {
     "Saúde": {
@@ -35,6 +35,22 @@
       "revisado": false
     },
     "Aposentados e previdência": {
+      "consta": true,
+      "revisado": false
+    },
+    "Combate à pobreza": {
+      "consta": true,
+      "revisado": false
+    },
+    "Mulheres": {
+      "consta": true,
+      "revisado": false
+    },
+    "Minorias e direitos": {
+      "consta": true,
+      "revisado": false
+    },
+    "Juventude": {
       "consta": true,
       "revisado": false
     },
@@ -163,9 +179,9 @@
     {
       "area": "Emprego e renda",
       "id": "emprego-e-renda-01",
-      "titulo": "Contratos para primeiro emprego e para 50 anos ou mais",
-      "resumo": "Propõe criar um contrato de trabalho para jovens de 18 a 24 anos em busca do primeiro emprego, com menor custo na folha, e um contrato mais atrativo para pessoas com 50 anos ou mais desempregadas há ao menos 12 meses.",
-      "trecho_original": "trabalho para os 18 a 24 anos em busca do primeiro emprego, com menor custo na folha, para que a empresa tenha estímulo a dar a primeira oportunidade [...] vamos criar um contrato mais atrativo para a contratação de pessoas com 50 anos ou mais desempregadas há pelo menos 12 meses",
+      "titulo": "Contrato mais atrativo para quem tem 50 anos ou mais",
+      "resumo": "Propõe criar um contrato mais atrativo para a contratação de pessoas com 50 anos ou mais desempregadas há pelo menos 12 meses.",
+      "trecho_original": "Para quem tem mais idade, vamos criar um contrato mais atrativo para a contratação de pessoas com 50 anos ou mais desempregadas há pelo menos 12 meses",
       "pagina": 44,
       "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
     },
@@ -293,6 +309,114 @@
       "resumo": "Propõe mudar a governança do consignado dos beneficiários do INSS, revendo quem opera os descontos e como são autorizados.",
       "trecho_original": "Vamos mudar a governança do consignado para que a fraude não se repita, revendo quem opera esses descontos e como são autorizados",
       "pagina": 72,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Combate à pobreza",
+      "id": "combate-a-pobreza-01",
+      "titulo": "Trilha de qualificação e retorno ao benefício",
+      "resumo": "Propõe criar uma trilha de qualificação e intermediação para quem recebe o benefício e garantir o retorno imediato e sem fila ao benefício após o seguro-desemprego, mantidas as condições de elegibilidade.",
+      "trecho_original": "Criaremos uma trilha de qualificação e intermediação desenhada especialmente para quem recebe o benefício [...] E garantiremos o retorno imediato e sem fila ao benefício após o seguro-desemprego, mantidas as condições de elegibilidade",
+      "pagina": 43,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Combate à pobreza",
+      "id": "combate-a-pobreza-02",
+      "titulo": "Manutenção dos programas sociais com gestão aprimorada",
+      "resumo": "Propõe manter os programas sociais existentes, com aperfeiçoamento da gestão, correção de distorções e combate às fraudes.",
+      "trecho_original": "vamos manter os programas sociais existentes, com aperfeiçoamento da gestão, correção de distorções e combate às fraudes.",
+      "pagina": 42,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Combate à pobreza",
+      "id": "combate-a-pobreza-03",
+      "titulo": "Proibir uso de recursos sociais em apostas",
+      "resumo": "Propõe proibir o uso dos recursos dos programas sociais para apostas e promover campanhas educativas e de conscientização sobre os riscos do endividamento com jogos.",
+      "trecho_original": "Vamos proibir o uso dos recursos dos programas sociais para apostas [...] e promover campanhas educativas e de conscientização sobre os riscos do endividamento com jogos.",
+      "pagina": 33,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Mulheres",
+      "id": "mulheres-01",
+      "titulo": "Central da Mulher",
+      "resumo": "Propõe abrir Centrais da Mulher em todo o Brasil, em parceria com estados e municípios, reunindo acolhimento e proteção, orientação jurídica, apoio psicológico, saúde preventiva e qualificação.",
+      "trecho_original": "A Central da Mulher será um espaço físico onde a mulher resolve a vida sem perder tempo nem percorrer a cidade inteira. Nela, encontrará acolhimento e proteção, orientação jurídica e apoio psicológico, saúde preventiva, qualificação e cadastramento [...] Vamos abrir essas centrais em todo o Brasil, em parceria com estados e municípios",
+      "pagina": 17,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Mulheres",
+      "id": "mulheres-02",
+      "titulo": "Tornozeleira para agressores com medida protetiva",
+      "resumo": "Propõe monitorar com tornozeleira eletrônica os agressores de mulheres com medida protetiva e obrigar assassinos e agressores de mulheres a cumprir integralmente as penas.",
+      "trecho_original": "Os agressores das mais de meio milhão de mulheres com medida protetiva no Brasil serão monitorados pelas autoridades com o uso de tornozeleiras eletrônicas. Vamos endurecer a lei e obrigar assassinos e agressores de mulheres a cumprir integralmente suas penas.",
+      "pagina": 14,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Mulheres",
+      "id": "mulheres-03",
+      "titulo": "Saúde preventiva da mulher",
+      "resumo": "Propõe cuidar da saúde da mulher de forma preventiva, com atendimento perto de casa e por telemedicina, ampliar o acesso a exames preventivos e dar acesso também à saúde bucal.",
+      "trecho_original": "Vamos cuidar da saúde da mulher de forma preventiva, sem fila longa, com atendimento perto de casa e também pelo celular, por telemedicina ou em postos de saúde que vamos ampliar e construir. [...] Vamos ampliar o acesso a exames preventivos, cuidando da mulher com câncer, na menopausa, na gestação ou que sofre de endometriose, por exemplo, e dar acesso também à saúde bucal.",
+      "pagina": 21,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Minorias e direitos",
+      "id": "minorias-e-direitos-01",
+      "titulo": "Políticas para pessoas com deficiência e autismo",
+      "resumo": "Propõe políticas transversais a todas as áreas do governo para pessoas com deficiência e com doenças raras, entre elas a implantação de Centros de Referência em Transtorno do Espectro Autista.",
+      "trecho_original": "O mesmo cuidado vale para as pessoas com deficiência e com doenças raras [...] Nossas políticas serão transversais, atravessando todas as áreas do governo, voltadas a ações concretas de garantia de direitos, inclusão e integração social, entre elas a implantação de Centros de Referência em Transtorno do Espectro Autista.",
+      "pagina": 39,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Minorias e direitos",
+      "id": "minorias-e-direitos-02",
+      "titulo": "Autonomia de povos indígenas e quilombolas",
+      "resumo": "Propõe conferir autonomia aos povos indígenas e quilombolas para decidir sobre atividades produtivas em suas terras, respeitados o desenvolvimento sustentável e as regras ambientais, com indenização de eventuais restrições ao usufruto e mecanismos de compensação.",
+      "trecho_original": "Será conferida autonomia aos povos indígenas e quilombolas para decidir sobre atividades produtivas em suas terras, com respeito ao desenvolvimento sustentável e às regras ambientais, e com indenização de eventuais restrições ao usufruto e mecanismos de compensação",
+      "pagina": 50,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Minorias e direitos",
+      "id": "minorias-e-direitos-03",
+      "titulo": "Rede Nacional de Cuidado para idosos e pessoas com deficiência",
+      "resumo": "Propõe estruturar uma Rede Nacional de Cuidado, ampliando o apoio a idosos e pessoas com deficiência, com centros-dia e atendimento domiciliar em parcerias com estados, municípios e organizações sociais.",
+      "trecho_original": "Também estruturaremos uma Rede Nacional de Cuidado, ampliando o apoio a idosos e pessoas com deficiência, com centros-dia e atendimento domiciliar em parcerias público privado com estados, municípios e organizações sociais.",
+      "pagina": 21,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "id": "juventude-01",
+      "area": "Juventude",
+      "titulo": "Contrato de primeiro emprego para jovens de 18 a 24 anos",
+      "resumo": "Propõe, para jovens de 18 a 24 anos em busca do primeiro emprego, trabalho com menor custo na folha para a empresa.",
+      "trecho_original": "trabalho para os 18 a 24 anos em busca do primeiro emprego, com menor custo na folha, para que a empresa tenha estímulo a dar a primeira oportunidade e o jovem consiga a experiência que hoje lhe é cobrada e negada ao mesmo tempo.",
+      "pagina": 44,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "id": "juventude-02",
+      "area": "Juventude",
+      "titulo": "Educação técnica no ensino médio com o setor produtivo",
+      "pagina": 36,
+      "resumo": "Propõe ampliar a oferta de educação técnica para alunos do ensino médio, em parceria com o setor produtivo e com foco na inovação.",
+      "trecho_original": "Vamos ampliar a oferta de educação técnica para os alunos do ensino médio, para que o jovem saia da escola já com uma profissão na mão, e não apenas com um diploma. E vamos fazer essa formação técnica em parceria com o setor produtivo, com foco na inovação",
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "id": "juventude-03",
+      "area": "Juventude",
+      "titulo": "Economia digital no currículo escolar",
+      "pagina": 35,
+      "resumo": "Propõe levar robótica, computadores, tablets e internet às escolas e incluir no currículo competências para a economia digital, como lidar com o próprio dinheiro, empreender e usar novas tecnologias, inclusive IA.",
+      "trecho_original": "Vamos ainda levar robótica, computadores, tablets e internet às escolas, e incluir no currículo competências para a economia digital, preparando o jovem para lidar com o próprio dinheiro, empreender e usar as novas tecnologias, entre elas a inteligência artificial.",
       "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
     }
   ]

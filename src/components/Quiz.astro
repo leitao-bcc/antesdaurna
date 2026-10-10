@@ -18,7 +18,7 @@ const json = JSON.stringify({ perguntas, nomes }).replace(/</g, '\\u003c');
     <div>
       <p class="rotulo" id="quiz-progresso" aria-live="polite">Às cegas</p>
       <h2 class="h2" id="t-quiz">Qual proposta você prefere?</h2>
-      <p class="suave">Sem nomes e sem cores. No fim, a gente revela de quem era cada uma. Isto não é recomendação de voto.</p>
+      <p class="suave">Sem nomes e sem cores. No fim, a gente revela de quem era cada uma. Isto não é recomendação de voto. Cada rodada sorteia até 10 temas.</p>
       {omitidas > 0 && <p class="suave">{omitidas} {omitidas === 1 ? 'tema ficou' : 'temas ficaram'} de fora porque um dos planos não trata dele (ou ainda está em revisão).</p>}
     </div>
     <div id="quiz-pergunta" hidden>
@@ -49,13 +49,14 @@ const json = JSON.stringify({ perguntas, nomes }).replace(/</g, '\\u003c');
     return r;
   };
 
+  const MAX_PERGUNTAS = 10;
   type Rodada = { tema: string; a: string; b: string; xEhA: boolean };
   let rodadas: Rodada[] = [];
   let escolhas: ('a' | 'b')[] = [];
   let passo = 0;
 
   const iniciar = () => {
-    rodadas = embaralhar(perguntas).map((p) => ({ tema: p.tema, a: sorteia(p.a), b: sorteia(p.b), xEhA: Math.random() < 0.5 }));
+    rodadas = embaralhar(perguntas).slice(0, MAX_PERGUNTAS).map((p) => ({ tema: p.tema, a: sorteia(p.a), b: sorteia(p.b), xEhA: Math.random() < 0.5 }));
     escolhas = [];
     passo = 0;
     $('quiz-fim').hidden = true;

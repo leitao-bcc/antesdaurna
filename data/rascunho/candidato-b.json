@@ -11,7 +11,7 @@
     "numero": "13",
     "partido": "PT",
     "trechos_conferidos_em": "2026-10-10",
-    "trechos_conferidos_sha256": "5668af1318a82fd7bedee96faedba96f7d49790458b8c807f7d1e3e418a8c4a5"
+    "trechos_conferidos_sha256": "c5078e7688e80b17add82ebc2ddc081b2e2686009a2c4280e9d75ea79c45607e"
   },
   "cobertura": {
     "Saúde": {
@@ -35,6 +35,22 @@
       "revisado": false
     },
     "Aposentados e previdência": {
+      "consta": true,
+      "revisado": false
+    },
+    "Combate à pobreza": {
+      "consta": true,
+      "revisado": false
+    },
+    "Mulheres": {
+      "consta": true,
+      "revisado": false
+    },
+    "Minorias e direitos": {
+      "consta": true,
+      "revisado": false
+    },
+    "Juventude": {
       "consta": true,
       "revisado": false
     },
@@ -281,7 +297,7 @@
       "area": "Aposentados e previdência",
       "id": "aposentados-e-previdencia-02",
       "titulo": "Reestruturar o financiamento e flexibilizar contribuições",
-      "resumo": "Propõe reestruturar a base de financiamento da Previdência, com diversidade de fontes de custeio, e criar mecanismos contributivos mais flexíveis para quem tem trajetórias de trabalho descontínuas.",
+      "resumo": "Propõe buscar reestruturar a base de financiamento da Previdência, com diversidade de fontes de custeio, e construir mecanismos contributivos mais flexíveis para trajetórias de trabalho descontínuas e múltiplas.",
       "trecho_original": "buscar reestruturar a base de financiamento da Previdência, buscando a diversidade das fontes de custeio. Queremos construir mecanismos contributivos mais flexíveis, capazes de acompanhar trajetórias ocupacionais descontínuas e múltiplas",
       "pagina": 77,
       "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
@@ -290,9 +306,117 @@
       "area": "Aposentados e previdência",
       "id": "aposentados-e-previdencia-03",
       "titulo": "Previdência no trabalho por plataforma",
-      "resumo": "Propõe inserir, na regulação do trabalho mediado por plataforma, o financiamento da previdência social e a cobertura para aposentadoria, incapacidade temporária, acidentes, maternidade e outras contingências.",
+      "resumo": "Propõe buscar inserir, na regulação do trabalho mediado por plataforma, o financiamento da previdência social e a cobertura para aposentadoria, incapacidade temporária, acidentes, maternidade e outras contingências.",
       "trecho_original": "Buscaremos inserir na regulação do trabalho mediado por plataforma o financiamento da previdência social e a cobertura adequada para aposentadoria, incapacidade temporária, acidentes, maternidade ou demais contingências sociais.",
       "pagina": 77,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Combate à pobreza",
+      "id": "combate-a-pobreza-01",
+      "titulo": "Proteção social básica e especial no SUAS",
+      "resumo": "Propõe fortalecer a Proteção Social Básica e a Proteção Social Especial de média e alta complexidade, com mais recursos e expansão e modernização da rede de atendimento.",
+      "trecho_original": "No próximo mandato, avançaremos ainda mais no fortalecimento da Proteção Social Básica e da Proteção Social Especial de média e alta complexidade, seja com mais recursos para atendimento às populações, seja por meio da expansão e modernização da rede de atendimento.",
+      "pagina": 25,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Combate à pobreza",
+      "id": "combate-a-pobreza-02",
+      "titulo": "Políticas para crianças e enfrentamento da pobreza infantil",
+      "resumo": "Propõe ampliar e fortalecer as políticas para as crianças por meio do enfrentamento da pobreza infantil, da garantia de acesso às políticas públicas e do direito ao brincar.",
+      "trecho_original": "Continuaremos buscando ampliar e fortalecer as políticas para nossas crianças, por meio do enfrentamento da pobreza infantil, da garantia de acesso às políticas públicas e do direito ao brincar.",
+      "pagina": 24,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Combate à pobreza",
+      "id": "combate-a-pobreza-03",
+      "titulo": "Infraestruturas de cuidado comunitário",
+      "resumo": "Propõe fomentar a construção de infraestruturas de cuidado comunitário, como lavanderias públicas, cozinhas solidárias e restaurantes populares.",
+      "trecho_original": "Fomentaremos a construção de infraestruturas que ampliam os cuidados indiretos e comunitários, como as lavanderias públicas, as cozinhas solidárias e os restaurantes populares.",
+      "pagina": 26,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Mulheres",
+      "id": "mulheres-01",
+      "titulo": "Rede de proteção às mulheres vítimas de violência",
+      "resumo": "Propõe concluir 30 Casas da Mulher Brasileira e 15 Centros de Referência da Mulher Brasileira, ampliar as Salas Lilás e distribuir aos estados kits de monitoramento de agressores.",
+      "trecho_original": "Vamos dar sequência ao Pacto, ampliando a rede de proteção às mulheres – concluiremos as 30 Casas da Mulher Brasileira e os 15 Centros de Referência da Mulher Brasileira. Ampliaremos as Salas Lilás e vamos adquirir e distribuir aos Estados kits para aprimorar o monitoramento de agressores.",
+      "pagina": 21,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Mulheres",
+      "id": "mulheres-02",
+      "titulo": "Planos de ação pela igualdade salarial",
+      "resumo": "Propõe tornar obrigatória a execução dos Planos de Ação nas empresas com desigualdades identificadas, com metas progressivas de redução das disparidades salariais e de ampliação da presença de mulheres, especialmente negras e pessoas com deficiência.",
+      "trecho_original": "A execução dos Planos de Ação nas empresas com desigualdades identificadas será tornada obrigatória, com metas progressivas de redução das disparidades salariais e ampliação da presença de mulheres, especialmente negras e pessoas com deficiência.",
+      "pagina": 75,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Mulheres",
+      "id": "mulheres-03",
+      "titulo": "Planejamento reprodutivo e contraceptivos no SUS",
+      "resumo": "Propõe ampliar o acesso a métodos contraceptivos modernos e de longa duração, distribuídos gratuitamente no SUS, como parte do planejamento reprodutivo.",
+      "trecho_original": "Fortaleceremos o planejamento reprodutivo ampliando o acesso a métodos contraceptivos modernos e de longa duração, a serem distribuídos gratuitamente no SUS",
+      "pagina": 38,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Minorias e direitos",
+      "id": "minorias-e-direitos-01",
+      "titulo": "Terras indígenas e Universidade Indígena",
+      "resumo": "Propõe garantir proteção aos territórios dos povos indígenas, com ações de demarcação e desintrusão sempre que necessárias, e implantar plenamente a Universidade Indígena.",
+      "trecho_original": "Reafirmamos igualmente o compromisso com a proteção dos povos indígenas, de seus territórios, culturas e modos de vida. Persistiremos, garantindo proteção a seus territórios, com ações para demarcação e desintrusão de terras sempre que necessárias. [...] Vamos implantar plenamente a Universidade Indígena, criada em 2026.",
+      "pagina": 20,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Minorias e direitos",
+      "id": "minorias-e-direitos-02",
+      "titulo": "Viver sem Limites e cotas para pessoas com deficiência",
+      "resumo": "Propõe manter o Viver sem Limites e fortalecer a fiscalização das cotas de contratação de pessoas com deficiência no mercado de trabalho.",
+      "trecho_original": "Manteremos a implementação do Viver sem Limites. [...] A fiscalização do cumprimento das cotas de contratação de pessoas com deficiência no mercado de trabalho será fortalecida, ampliando a política de inclusão econômica.",
+      "pagina": 23,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Minorias e direitos",
+      "id": "minorias-e-direitos-03",
+      "titulo": "Combate ao racismo e Estatuto da Igualdade Racial",
+      "resumo": "Propõe manter o combate ao racismo no centro da estratégia de desenvolvimento e avançar na regulamentação do Estatuto da Igualdade Racial.",
+      "trecho_original": "Manteremos o combate ao racismo no centro de nossa estratégia de desenvolvimento [...] Avançaremos ainda mais na regulamentação do Estatuto da Igualdade Racial para a consolidação da equidade como política de Estado.",
+      "pagina": 19,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Juventude",
+      "id": "juventude-01",
+      "titulo": "Cursinhos populares e assistência estudantil",
+      "resumo": "Propõe manter os investimentos na rede nacional de cursinhos populares (CPop) e fortalecer a assistência estudantil, com mais acesso à alimentação e à moradia estudantil para jovens no ensino superior.",
+      "trecho_original": "Manteremos os investimentos na rede nacional de cursinhos populares (CPop), de modo a facilitar o acesso da juventude ao ensino superior. Fortaleceremos ainda mais a assistência estudantil, ampliando o acesso à alimentação e à moradia estudantil para os jovens que estão no ensino superior.",
+      "pagina": 24,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Juventude",
+      "id": "juventude-02",
+      "titulo": "Empreendedorismo jovem e juventude rural",
+      "resumo": "Propõe criar políticas de fomento ao empreendedorismo entre os jovens e apoiar a juventude rural com crédito e ações específicas para seu perfil.",
+      "trecho_original": "Persistiremos também criando políticas de fomento ao empreendedorismo entre os jovens e apoiando a juventude rural com crédito e ações específicas para seu perfil.",
+      "pagina": 25,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Juventude",
+      "id": "juventude-03",
+      "titulo": "Saúde mental da juventude",
+      "resumo": "Propõe aprimorar a política de saúde mental para a juventude, com foco na Política Nacional de Atenção Psicossocial, na redução de danos e na desconstrução de preconceitos em escolas e universidades.",
+      "trecho_original": "Aprimorar a política de saúde mental para a juventude é um de nossos compromissos, com foco na Política Nacional de Atenção Psicossocial, na redução de danos e na desconstrução de preconceitos nas comunidades escolares e universitárias.",
+      "pagina": 25,
       "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
     }
   ]

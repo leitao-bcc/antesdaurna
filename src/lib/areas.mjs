@@ -3,5 +3,5 @@ const slug = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().rep
 
 export const AREAS = [
   'Saúde', 'Educação', 'Segurança', 'Economia',
-  'Emprego e renda', 'Aposentados e previdência', 'Meio ambiente', 'Moradia', 'Cultura e esporte',
+  'Emprego e renda', 'Aposentados e previdência', 'Combate à pobreza', 'Mulheres', 'Minorias e direitos', 'Juventude', 'Meio ambiente', 'Moradia', 'Cultura e esporte',
 ].map((nome) => ({ nome, slug: slug(nome) }));

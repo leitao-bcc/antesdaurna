@@ -28,6 +28,22 @@
       "consta": true,
       "revisado": false
     },
+    "Combate à pobreza": {
+      "consta": true,
+      "revisado": false
+    },
+    "Mulheres": {
+      "consta": true,
+      "revisado": false
+    },
+    "Minorias e direitos": {
+      "consta": true,
+      "revisado": false
+    },
+    "Juventude": {
+      "consta": true,
+      "revisado": false
+    },
     "Meio ambiente": {
       "consta": true,
       "revisado": false
@@ -181,6 +197,78 @@
       "id": "aposentados-e-previdencia-02",
       "area": "Aposentados e previdência",
       "titulo": "[Exemplo: proposta 2 de Aposentados e previdência]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "combate-a-pobreza-01",
+      "area": "Combate à pobreza",
+      "titulo": "[Exemplo: proposta 1 de Combate à pobreza]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "combate-a-pobreza-02",
+      "area": "Combate à pobreza",
+      "titulo": "[Exemplo: proposta 2 de Combate à pobreza]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "mulheres-01",
+      "area": "Mulheres",
+      "titulo": "[Exemplo: proposta 1 de Mulheres]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "mulheres-02",
+      "area": "Mulheres",
+      "titulo": "[Exemplo: proposta 2 de Mulheres]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "minorias-e-direitos-01",
+      "area": "Minorias e direitos",
+      "titulo": "[Exemplo: proposta 1 de Minorias e direitos]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "minorias-e-direitos-02",
+      "area": "Minorias e direitos",
+      "titulo": "[Exemplo: proposta 2 de Minorias e direitos]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "juventude-01",
+      "area": "Juventude",
+      "titulo": "[Exemplo: proposta 1 de Juventude]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "juventude-02",
+      "area": "Juventude",
+      "titulo": "[Exemplo: proposta 2 de Juventude]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
       "trecho_original": "[Exemplo: trecho literal do plano]",
       "pagina": 0,
