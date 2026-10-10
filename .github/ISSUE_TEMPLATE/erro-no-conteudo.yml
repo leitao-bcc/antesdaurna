@@ -1,0 +1,44 @@
+name: Erro no conteúdo
+description: Um resumo, página ou link não bate com o plano de governo registrado no TSE.
+labels: ["conteudo"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar. Só aceitamos correções apoiadas no plano registrado no TSE.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Tema
+      options:
+        - Saúde
+        - Educação
+        - Segurança
+        - Economia
+        - Emprego e renda
+        - Meio ambiente
+        - Moradia
+        - Cultura e esporte
+        - Outro
+    validations:
+      required: true
+  - type: input
+    id: candidato
+    attributes:
+      label: Candidato (A ou B)
+    validations:
+      required: true
+  - type: textarea
+    id: erro
+    attributes:
+      label: O que está errado?
+      description: Cole o resumo do site e explique a diferença.
+    validations:
+      required: true
+  - type: textarea
+    id: fonte
+    attributes:
+      label: Onde está no plano original?
+      description: Página do PDF e trecho que sustenta a correção.
+    validations:
+      required: true

@@ -1,0 +1,15 @@
+name: Problema no site
+description: Bug, acessibilidade ou algo que não funciona.
+labels: ["site"]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu?
+    validations:
+      required: true
+  - type: input
+    id: ambiente
+    attributes:
+      label: Aparelho e navegador
+      placeholder: "Ex.: iPhone 13, Safari; leitor de tela TalkBack"
