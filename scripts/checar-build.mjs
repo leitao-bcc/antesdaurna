@@ -27,11 +27,12 @@ if (!erros.length) {
   globalThis.fetch = lerArquivo;
   const pf = await import(new URL('pagefind/pagefind.js', raiz).href);
   await pf.options({ basePath: `${dist}pagefind/` });
-  const r = await pf.search(`Candidato`);
-  const d = r.results.length ? await r.results[0].data() : null;
-  const urls = (d?.sub_results ?? []).map((x) => x.url);
+  // Cada cabeçalho de coluna tem só o nome do candidato; buscar o nome tem que achar a âncora dele.
   for (const l of LADOS) {
-    if (!urls.some((u) => u.endsWith(`#${ancoraPlano(l)}`))) erros.push(`busca: sem sub-resultado ${ancoraPlano(l)}`);
+    const nome = JSON.parse(readFileSync(new URL(`../data/candidato-${l}.json`, import.meta.url), 'utf8')).nome;
+    const r = await pf.search(nome);
+    const urls = (await Promise.all(r.results.slice(0, 20).map((x) => x.data()))).flatMap((d) => (d.sub_results ?? []).map((x) => x.url));
+    if (!urls.some((u) => u.endsWith(`#${ancoraPlano(l)}`))) erros.push(`busca: sem sub-resultado ${ancoraPlano(l)} ao buscar "${nome}"`);
   }
 }
 if (erros.length) { console.error('Build inconsistente:\n- ' + erros.join('\n- ')); process.exit(1); }
