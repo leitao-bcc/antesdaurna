@@ -33,11 +33,11 @@ try {
   falha(e.message);
 }
 
-const TSE = /^https:\/\/divulgacandcontas\.tse\.jus\.br\/[^@\s]*$/;
+const TSE = /^https:\/\/(divulgacandcontas|www)\.tse\.jus\.br\/[^@\s]*$/;
 if (!['a', 'b'].includes(v.candidato)) falha('--candidato deve ser "a" ou "b"');
 if (!v.pdf || !existsSync(doUsuario(v.pdf))) falha('--pdf aponta para um arquivo que não existe');
-if (!v.url || !TSE.test(v.url)) falha('--url deve ser o link https da candidatura em divulgacandcontas.tse.jus.br');
-if (v['url-pdf'] && !TSE.test(v['url-pdf'])) falha('--url-pdf deve ser https em divulgacandcontas.tse.jus.br');
+if (!v.url || !TSE.test(v.url)) falha('--url deve ser o link https da candidatura em tse.jus.br');
+if (v['url-pdf'] && !TSE.test(v['url-pdf'])) falha('--url-pdf deve ser https em tse.jus.br');
 if (v['baixado-em'] && !/^\d{4}-\d{2}-\d{2}$/.test(v['baixado-em'])) falha('--baixado-em deve estar no formato AAAA-MM-DD');
 
 const id = v.candidato;

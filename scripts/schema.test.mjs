@@ -34,3 +34,9 @@ test('schema: url fora do domínio do TSE ou com credenciais falha', () => {
   const ruim = ['https://exemplo.com/x', 'https://divulgacandcontas.tse.jus.br.evil.com/x', 'https://user@divulgacandcontas.tse.jus.br/x'];
   for (const url_tse of ruim) assert.equal(valida({ ...base(), status: 'rascunho', fonte: { ...fonte(), url_tse } }), false, url_tse);
 });
+
+test('schema: aceita os dois endereços oficiais do TSE', () => {
+  for (const url_tse of ['https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt', 'https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/1']) {
+    assert.equal(valida({ ...base(), status: 'rascunho', fonte: { ...fonte(), url_tse } }), true, url_tse);
+  }
+});

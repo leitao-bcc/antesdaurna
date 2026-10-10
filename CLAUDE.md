@@ -13,7 +13,7 @@ Site independente e apartidário que compara, lado a lado, os planos de governo 
 - Não fazer impulsionamento pago (restrito a candidatos/partidos).
 
 ## Seções
-1. Comparador por área: Saúde, Educação, Segurança, Economia, Emprego e renda, Meio ambiente, Moradia, Cultura e esporte.
+1. Comparador por tema: 42 temas em 9 blocos (Segurança e Justiça; Saúde e cuidados; Educação, ciência e cultura; Economia; Trabalho e proteção social; Infraestrutura, cidades e território; Campo e ambiente; Direitos e inclusão; Estado, democracia e mundo). Lista única em `src/lib/areas.mjs`; critérios e mapa de páginas em `docs/taxonomia-temas.md`. Até 2 propostas por tema e por candidato; públicos transversais (jovens, idosos, mulheres, crianças) são etiquetas, não temas.
 2. Busca por palavra/tema com trechos dos dois planos.
 3. Quiz às cegas: propostas sem nome, revela no fim.
 4. Como fizemos (metodologia) + rodapé "encontrou um erro?".

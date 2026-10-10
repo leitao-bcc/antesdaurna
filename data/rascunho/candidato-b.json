@@ -1,0 +1,944 @@
+{
+  "id": "b",
+  "letra": "B",
+  "nome": "Lula",
+  "status": "rascunho",
+  "fonte": {
+    "url_tse": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+    "sha256_pdf": "e1c162c20c81dafadf69b10bab230b5a6dc48f6b6c27c2cfce853b131a8bcc36",
+    "baixado_em": "2026-10-10",
+    "paginas_total": 84,
+    "numero": "13",
+    "partido": "PT",
+    "trechos_conferidos_em": "2026-10-10",
+    "trechos_conferidos_sha256": "ddf75b47adfa1ca0469d6366edb2a72976932c406d81e0dedb64ed990f12d3b8"
+  },
+  "cobertura": {
+    "Segurança pública e crime organizado": {
+      "consta": true,
+      "revisado": false
+    },
+    "Prisões e leis penais": {
+      "consta": true,
+      "revisado": false
+    },
+    "Saúde e atendimento no SUS": {
+      "consta": true,
+      "revisado": false
+    },
+    "Remédios, vacinas e indústria da saúde": {
+      "consta": true,
+      "revisado": false
+    },
+    "Idosos e cuidados": {
+      "consta": true,
+      "revisado": false
+    },
+    "Pessoas com deficiência": {
+      "consta": true,
+      "revisado": false
+    },
+    "Educação básica": {
+      "consta": true,
+      "revisado": false
+    },
+    "Ensino técnico e superior": {
+      "consta": true,
+      "revisado": false
+    },
+    "Ciência, tecnologia e IA": {
+      "consta": true,
+      "revisado": false
+    },
+    "Cultura": {
+      "consta": true,
+      "revisado": false
+    },
+    "Esporte": {
+      "consta": true,
+      "revisado": false
+    },
+    "Contas públicas e juros": {
+      "consta": true,
+      "revisado": false
+    },
+    "Impostos": {
+      "consta": true,
+      "revisado": false
+    },
+    "Custo de vida e endividamento": {
+      "consta": true,
+      "revisado": false
+    },
+    "Indústria e comércio exterior": {
+      "consta": true,
+      "revisado": false
+    },
+    "Pequenos negócios e burocracia": {
+      "consta": true,
+      "revisado": false
+    },
+    "Emprego e renda": {
+      "consta": true,
+      "revisado": false
+    },
+    "Previdência e aposentados": {
+      "consta": true,
+      "revisado": false
+    },
+    "Combate à pobreza e fome": {
+      "consta": true,
+      "revisado": false
+    },
+    "Infraestrutura e logística": {
+      "consta": true,
+      "revisado": false
+    },
+    "Energia e combustíveis": {
+      "consta": true,
+      "revisado": false
+    },
+    "Moradia": {
+      "consta": true,
+      "revisado": false
+    },
+    "Cidades, mobilidade e riscos": {
+      "consta": true,
+      "revisado": false
+    },
+    "Saneamento e água": {
+      "consta": true,
+      "revisado": false
+    },
+    "Conectividade e governo digital": {
+      "consta": true,
+      "revisado": false
+    },
+    "Desenvolvimento regional": {
+      "consta": true,
+      "revisado": false
+    },
+    "Turismo": {
+      "consta": true,
+      "revisado": false
+    },
+    "Agronegócio": {
+      "consta": true,
+      "revisado": false
+    },
+    "Agricultura familiar e terra": {
+      "consta": true,
+      "revisado": false
+    },
+    "Meio ambiente e florestas": {
+      "consta": true,
+      "revisado": false
+    },
+    "Clima e transição ecológica": {
+      "consta": true,
+      "revisado": false
+    },
+    "Mulheres": {
+      "consta": true,
+      "revisado": false
+    },
+    "Igualdade racial e combate à discriminação": {
+      "consta": true,
+      "revisado": false
+    },
+    "Povos indígenas e quilombolas": {
+      "consta": true,
+      "revisado": false
+    },
+    "Crianças e adolescentes": {
+      "consta": true,
+      "revisado": false
+    },
+    "Judiciário e Supremo": {
+      "consta": true,
+      "revisado": false
+    },
+    "Reforma política e participação social": {
+      "consta": true,
+      "revisado": false
+    },
+    "Liberdade de expressão e plataformas": {
+      "consta": true,
+      "revisado": false
+    },
+    "Gestão pública, estatais e anticorrupção": {
+      "consta": true,
+      "revisado": false
+    },
+    "Pacto federativo e orçamento": {
+      "consta": true,
+      "revisado": false
+    },
+    "Política externa": {
+      "consta": true,
+      "revisado": false
+    },
+    "Defesa nacional": {
+      "consta": true,
+      "revisado": false
+    }
+  },
+  "propostas": [
+    {
+      "area": "Segurança pública e crime organizado",
+      "id": "seguranca-publica-01",
+      "titulo": "Programa Brasil Contra o Crime Organizado",
+      "resumo": "Propõe fortalecer, com estados e municípios, o Programa Brasil Contra o Crime Organizado: tráfico de armas e munições, asfixia financeira do crime organizado e das milícias, investigação de homicídios e retomada de territórios.",
+      "trecho_original": "Fortaleceremos o Programa Brasil Contra o Crime Organizado, lançado em maio de 2026. Em cooperação com estados e municípios, vamos avançar no enfrentamento ao tráfico de armas, munições, acessórios e explosivos; asfixia financeira do crime organizado e das milícias; qualificação da investigação de homicídios; retomada de territórios; e fortalecimento da segurança no sistema prisional.",
+      "pagina": 27,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Segurança pública e crime organizado",
+      "id": "seguranca-publica-02",
+      "titulo": "Controle de armas e munições",
+      "resumo": "Propõe manter a política de controle de armas e munições, aprimorar a rastreabilidade e reforçar a fiscalização da Polícia Federal e do Exército sobre empresas de segurança privada, defesa pessoal e registros de caçadores, atiradores e colecionadores.",
+      "trecho_original": "manteremos uma política de controle de armas e munições, fundamental para reduzir a violência e fortalecer uma política democrática de segurança pública. Aprimoraremos os mecanismos de rastreabilidade de armas e munições e reforçaremos a capacidade de fiscalização da Polícia Federal e do Exército sobre empresas de segurança privada, defesa pessoal e registros de caçadores, atiradores e colecionadores.",
+      "pagina": 28,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Prisões e leis penais",
+      "id": "prisoes-e-leis-penais-01",
+      "titulo": "Plano Pena Justa e Pacto Nacional de Execução Penal",
+      "resumo": "Propõe cumprir as metas do Plano Pena Justa e instituir o Pacto Nacional de Execução Penal para enfrentar o crime organizado, com mais governança do sistema prisional e cooperação entre União, estados e Justiça.",
+      "trecho_original": "Cumpriremos as metas do Plano Pena Justa e instituiremos o Pacto Nacional de Execução Penal para o Enfrentamento ao Crime Organizado, fortalecendo a governança do sistema prisional e a cooperação entre União, estados e sistema de justiça.",
+      "pagina": 28,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Prisões e leis penais",
+      "id": "prisoes-e-leis-penais-02",
+      "titulo": "Sistema penitenciário federal e presos de alta periculosidade",
+      "resumo": "Propõe ampliar a capacidade operacional e de isolamento de lideranças criminosas no sistema penitenciário federal e criar um protocolo nacional de classificação e transferência de presos de alta periculosidade.",
+      "trecho_original": "Fortaleceremos o sistema penitenciário federal, ampliando sua capacidade operacional e de isolamento de lideranças criminosas, e implantaremos um protocolo nacional de classificação e transferência de presos de alta periculosidade, baseado em critérios objetivos e evidências.",
+      "pagina": 28,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Saúde e atendimento no SUS",
+      "id": "saude-01",
+      "titulo": "Terceiro turno, Carretas da Saúde e mutirões",
+      "resumo": "Propõe expandir o terceiro turno nos serviços de saúde e reforçar as Carretas da Saúde e os mutirões de atendimento, para ampliar a oferta de consultas, exames e cirurgias.",
+      "trecho_original": "A expansão do terceiro turno nos serviços de saúde, o reforço das Carretas da Saúde e dos mutirões de atendimento seguirão como estratégias centrais para ampliar a oferta de consultas, exames e cirurgias em todo o país.",
+      "pagina": 37,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Saúde e atendimento no SUS",
+      "id": "saude-02",
+      "titulo": "Prontuário único do cidadão",
+      "resumo": "Propõe acelerar a consolidação do prontuário único do cidadão, para marcar consultas nas UBS e ver resultados de exames pelo celular.",
+      "trecho_original": "Vamos acelerar os esforços na consolidação do prontuário único do cidadão [...] permitirá disponibilizar diretamente no celular a marcação de consultas nas UBS e os resultados de exames",
+      "pagina": 35,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Remédios, vacinas e indústria da saúde",
+      "id": "remedios-e-vacinas-01",
+      "titulo": "Farmácia Popular gratuito e com exames laboratoriais",
+      "resumo": "Propõe manter o Farmácia Popular 100% gratuito e incluir no programa exames laboratoriais de diagnóstico e de monitoramento de condições crônicas, como hipertensão e diabetes.",
+      "trecho_original": "O programa será mantido, 100% gratuito, assegurando contínua revisão dos medicamentos ofertados e a continuidade da distribuição de fraldas geriátricas. [...] Uma inovação do programa será incluir exames laboratoriais, de diagnóstico e de monitoramento de condições crônicas de saúde, que afetam parcela significativa da população, tais como hipertensão arterial e diabetes.",
+      "pagina": 36,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Remédios, vacinas e indústria da saúde",
+      "id": "remedios-e-vacinas-02",
+      "titulo": "Vacinação nas escolas",
+      "resumo": "Propõe manter a vacinação nas escolas como eixo prioritário para recuperar coberturas vacinais e avançar na prevenção de doenças e no controle de tipos de câncer, com destaque para o HPV.",
+      "trecho_original": "A vacinação nas escolas seguirá como eixo prioritário para recuperar coberturas vacinais e avançar na prevenção de doenças e no controle de diferentes tipos de câncer, com destaque para o HPV.",
+      "pagina": 36,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Idosos e cuidados",
+      "id": "idosos-e-cuidados-01",
+      "titulo": "Capacitação de cuidadores",
+      "resumo": "Propõe instituir um programa de capacitação de cuidadores, com currículos inclusivos, para a forte expansão esperada da demanda por esses trabalhadores.",
+      "trecho_original": "Vamos instituir um programa visando a capacitação de cuidadores com currículos inclusivos, para fazer frente à potencialmente forte expansão da demanda por estes trabalhadores.",
+      "pagina": 26,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Idosos e cuidados",
+      "id": "idosos-e-cuidados-02",
+      "titulo": "Atenção domiciliar ao idoso (PADI Brasil)",
+      "resumo": "Propõe dar escala ao PADI Brasil, programa do SUS de atendimento domiciliar multiprofissional a pessoas idosas, para chegar a todo o território nacional.",
+      "trecho_original": "O Programa de Atenção Domiciliar ao Idoso – PADI Brasil, voltado ao atendimento domiciliar multiprofissional às pessoas idosas com limitações funcionais, condições crônicas e fragilidades clínicas [...] Vamos dar escala a esse programa do SUS para que idosos tenham acesso a esse direito em todo território nacional.",
+      "pagina": 22,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+      "etiquetas": [
+        "idosos"
+      ]
+    },
+    {
+      "area": "Pessoas com deficiência",
+      "id": "pessoas-com-deficiencia-01",
+      "titulo": "Viver sem Limites e cotas para pessoas com deficiência",
+      "resumo": "Propõe manter o Viver sem Limites e fortalecer a fiscalização das cotas de contratação de pessoas com deficiência no mercado de trabalho.",
+      "trecho_original": "Manteremos a implementação do Viver sem Limites. [...] A fiscalização do cumprimento das cotas de contratação de pessoas com deficiência no mercado de trabalho será fortalecida, ampliando a política de inclusão econômica.",
+      "pagina": 23,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Pessoas com deficiência",
+      "id": "pessoas-com-deficiencia-02",
+      "titulo": "Centros de Reabilitação e Oficinas Ortopédicas",
+      "resumo": "Propõe ampliar o número de Centros Especializados em Reabilitação e de Oficinas Ortopédicas.",
+      "trecho_original": "Na saúde, ampliaremos ainda mais o número de Centros Especializados em Reabilitação e Oficinas Ortopédicas.",
+      "pagina": 23,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Educação básica",
+      "id": "educacao-basica-01",
+      "titulo": "Meta de 80% de crianças alfabetizadas na idade certa",
+      "resumo": "Propõe seguir com as ações pactuadas com estados e municípios para chegar à meta de 80% das crianças alfabetizadas na idade certa.",
+      "trecho_original": "Seguiremos com as ações e políticas já pactuadas com os estados e municípios brasileiros para chegarmos à meta de 80% das nossas crianças alfabetizadas na idade certa.",
+      "pagina": 31,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Educação básica",
+      "id": "educacao-basica-02",
+      "titulo": "Continuidade e fortalecimento do Pé-de-Meia",
+      "resumo": "Propõe dar continuidade e fortalecer o Pé-de-Meia.",
+      "trecho_original": "Vamos dar continuidade e fortalecer o Pé-de-Meia.",
+      "pagina": 32,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+      "etiquetas": [
+        "jovens"
+      ]
+    },
+    {
+      "area": "Ensino técnico e superior",
+      "id": "ensino-tecnico-e-superior-01",
+      "titulo": "Expansão dos institutos federais",
+      "resumo": "Propõe continuar a expansão da rede de institutos federais, com prioridade para o interior, os vazios educacionais, as periferias urbanas e os municípios com pouca oferta de cursos técnicos.",
+      "trecho_original": "No novo mandato, continuaremos a expansão da nossa rede de institutos federais, priorizando a interiorização, os vazios educacionais, as periferias urbanas e os municípios com baixa oferta de cursos técnicos.",
+      "pagina": 33,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Ensino técnico e superior",
+      "id": "ensino-tecnico-e-superior-02",
+      "titulo": "Novo ciclo de expansão da educação superior pública",
+      "resumo": "Propõe um novo ciclo de expansão e interiorização da educação superior pública, para superar vazios educacionais e diferenças regionais.",
+      "trecho_original": "Haverá também novo ciclo expansão e interiorização da educação superior pública para superar os vazios educacionais e as assimetrias regionais.",
+      "pagina": 33,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Ciência, tecnologia e IA",
+      "id": "ciencia-tecnologia-e-ia-01",
+      "titulo": "Infraestrutura computacional soberana",
+      "resumo": "Propõe avançar numa infraestrutura computacional soberana, com supercomputadores desenvolvidos e operados por instituições nacionais.",
+      "trecho_original": "Vamos avançar numa infraestrutura computacional soberana, com supercomputadores desenvolvidos e operados por instituições nacionais.",
+      "pagina": 54,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Ciência, tecnologia e IA",
+      "id": "ciencia-tecnologia-e-ia-02",
+      "titulo": "Modelos de linguagem em português",
+      "resumo": "Propõe desenvolver e sustentar modelos de linguagem em português e outras línguas, voltados aos problemas do País, com uma plataforma nacional de dados para treinamento e avaliação.",
+      "trecho_original": "Vamos desenvolver e sustentar modelos de linguagem em português e outras línguas, voltados aos problemas do País, apoiados numa plataforma nacional de dados para treinamento e avaliação.",
+      "pagina": 55,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Cultura",
+      "id": "cultura-01",
+      "titulo": "Leis Aldir Blanc e Rouanet",
+      "resumo": "Propõe aperfeiçoar as duas principais leis de fomento à cultura, a Lei Aldir Blanc e a Lei Rouanet.",
+      "trecho_original": "Os principais instrumentos de fomento – Lei Aldir Blanc e Lei Rouanet – serão aperfeiçoados",
+      "pagina": 40,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Cultura",
+      "id": "cultura-02",
+      "titulo": "Regulamentação do streaming (VOD)",
+      "resumo": "Propõe continuar trabalhando pela aprovação no Congresso de uma regulamentação do streaming (VOD) que atenda ao interesse nacional e assegure o País como produtor e exportador ativo de obras audiovisuais.",
+      "trecho_original": "vamos continuar trabalhando pela aprovação, no Congresso Nacional, de uma regulamentação do streaming (VOD) que atenda ao interesse nacional e assegure o País como um produtor e exportador ativo de obras audiovisuais.",
+      "pagina": 42,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Esporte",
+      "id": "esporte-01",
+      "titulo": "Copa do Mundo de Futebol Feminino",
+      "resumo": "Propõe realizar, no próximo mandato, a Copa do Mundo de Futebol Feminino, em 8 capitais brasileiras.",
+      "trecho_original": "No próximo mandato, realizaremos a Copa do Mundo de Futebol Feminino, que ocorrerá pela primeira vez na América do Sul. Continuaremos trabalhando para o sucesso do evento, que ocorrerá em 8 capitais brasileiras",
+      "pagina": 43,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Esporte",
+      "id": "esporte-02",
+      "titulo": "Arenas Brasil",
+      "resumo": "Propõe ampliar o apoio às Arenas Brasil, equipamentos esportivos em todos os estados, para assegurar acesso às práticas esportivas em todo o território nacional.",
+      "trecho_original": "começamos a implantação de Arenas Brasil em todos os estados com o Novo PAC [...] Ampliaremos este apoio no novo mandato, para assegurar acesso às práticas esportivas em todo o território nacional.",
+      "pagina": 44,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Contas públicas e juros",
+      "id": "contas-publicas-e-juros-01",
+      "titulo": "Redução dos juros e manutenção do arcabouço fiscal",
+      "resumo": "Propõe criar condições para reduzir de forma sustentada as taxas de juros, com inflação controlada e política fiscal, e manter o novo arcabouço fiscal.",
+      "trecho_original": "vamos criar as condições para uma redução sustentada das taxas de juros, com inflação controlada e assegurando uma política fiscal responsável. Para isso, manteremos o novo arcabouço fiscal",
+      "pagina": 49,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Contas públicas e juros",
+      "id": "contas-publicas-e-juros-02",
+      "titulo": "Inflação sob controle",
+      "resumo": "Propõe manter a inflação sob controle de forma duradoura, para que a renda real da população cresça acima do custo de vida.",
+      "trecho_original": "Manteremos a inflação sob controle de forma duradoura e sustentável, garantindo que a renda real da população cresça acima do custo de vida.",
+      "pagina": 49,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Impostos",
+      "id": "impostos-01",
+      "titulo": "Imposto Seletivo na regulamentação da reforma tributária",
+      "resumo": "Propõe usar o Imposto Seletivo, ao regulamentar a reforma tributária, para desestimular produtos nocivos à saúde.",
+      "trecho_original": "Ao regulamentar a reforma tributária, vamos, por meio do Imposto Seletivo, desestimular produtos nocivos à saúde.",
+      "pagina": 59,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Custo de vida e endividamento",
+      "id": "custo-de-vida-01",
+      "titulo": "Endividamento das famílias, apostas e crédito",
+      "resumo": "Propõe acompanhar o endividamento das famílias e empresas, manter os fundos garantidores e o controle de gastos excessivos em apostas on-line e aprimorar as regras de oferta e concessão de crédito.",
+      "trecho_original": "seguiremos monitorando a evolução do endividamento das famílias e das empresas, assegurando a continuidade dos fundos garantidores, mantendo os mecanismos de controle de gastos excessivos em apostas on-line e aprimorando as regras de oferta e responsabilidade na concessão de crédito, conferindo maior proteção aos consumidores.",
+      "pagina": 49,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Custo de vida e endividamento",
+      "id": "custo-de-vida-02",
+      "titulo": "Volatilidade dos preços internacionais",
+      "resumo": "Propõe continuar atuando para mitigar a volatilidade dos preços internacionais, para que os brasileiros não fiquem expostos a choques externos.",
+      "trecho_original": "Continuaremos a atuar para mitigar a volatilidade dos preços internacionais, garantindo que os brasileiros não fiquem expostos a choques externos.",
+      "pagina": 66,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Indústria e comércio exterior",
+      "id": "industria-e-comercio-exterior-01",
+      "titulo": "Política para minerais críticos e terras raras",
+      "resumo": "Propõe desenvolver uma política específica para minerais críticos e terras raras, para organizar suas cadeias produtivas e evitar a simples exportação de matérias-primas estratégicas.",
+      "trecho_original": "Desenvolveremos uma política específica para minerais críticos e terras raras, capaz de organizar suas cadeias produtivas, diferenciar seus usos tecnológicos e evitar a simples exportação de matérias-primas estratégicas.",
+      "pagina": 52,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Indústria e comércio exterior",
+      "id": "industria-e-comercio-exterior-02",
+      "titulo": "Financiamento direcionado e conteúdo local",
+      "resumo": "Propõe usar financiamento direcionado, compras públicas, concessões e regulações com benefícios condicionados a conteúdo local, valor agregado nacional e margens de preferência para empresas brasileiras.",
+      "trecho_original": "Utilizaremos financiamento direcionado, com soluções inovadoras de parceria entre crédito público e privado, compras públicas, concessões, regulações e benefícios condicionados a conteúdo local, valor agregado nacional, margens de preferência com estímulos para empresas brasileiras.",
+      "pagina": 51,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Pequenos negócios e burocracia",
+      "id": "pequenos-negocios-01",
+      "titulo": "Ambiente de negócios e compras governamentais",
+      "resumo": "Propõe simplificar ainda mais o ambiente de negócios e ampliar o acesso das pequenas empresas às compras governamentais.",
+      "trecho_original": "No próximo período, vamos simplificar ainda mais o ambiente de negócios, ampliar o acesso das pequenas empresas às compras governamentais",
+      "pagina": 57,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Pequenos negócios e burocracia",
+      "id": "pequenos-negocios-02",
+      "titulo": "Crédito para micro, pequenas e médias empresas",
+      "resumo": "Propõe ampliar o acesso das micro, pequenas e médias empresas a crédito por meio dos fundos garantidores.",
+      "trecho_original": "Seguiremos potencializando o acesso a crédito para MPMEs por meio dos fundos garantidores.",
+      "pagina": 58,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Emprego e renda",
+      "id": "emprego-e-renda-01",
+      "titulo": "Fim da escala 6x1 e jornada de 40 horas",
+      "resumo": "Propõe atuar junto ao Senado para assegurar o fim da escala 6x1 e a redução da jornada para 40 horas, sem redução salarial, nos termos aprovados na Câmara dos Deputados.",
+      "trecho_original": "Manteremos nossa ação junto ao Senado Federal para assegurar o fim da escala 6x1 e a redução da jornada de trabalho para 40 horas, sem redução salarial, nos termos aprovados na Câmara dos Deputados.",
+      "pagina": 75,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Emprego e renda",
+      "id": "emprego-e-renda-02",
+      "titulo": "Continuidade da valorização do salário mínimo",
+      "resumo": "Propõe dar continuidade à política de valorização do salário mínimo.",
+      "trecho_original": "dará continuidade à política de valorização do salário mínimo como meio estratégico de distribuição de renda, combate à pobreza e promoção do desenvolvimento econômico e social.",
+      "pagina": 74,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Previdência e aposentados",
+      "id": "previdencia-01",
+      "titulo": "Concluir a modernização dos serviços previdenciários",
+      "resumo": "Propõe concluir, no próximo mandato, o processo de modernização e aprimoramento dos serviços previdenciários e aprimorar a política de acesso, em diálogo com a sociedade.",
+      "trecho_original": "no próximo mandato, concluiremos o processo de modernização e aprimoramento da prestação dos serviços previdenciários. Vamos continuar, em diálogo com a sociedade, a aprimorar a política de acesso",
+      "pagina": 77,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Previdência e aposentados",
+      "id": "previdencia-02",
+      "titulo": "Reestruturar o financiamento e flexibilizar contribuições",
+      "resumo": "Propõe buscar reestruturar a base de financiamento da Previdência, com diversidade de fontes de custeio, e construir mecanismos contributivos mais flexíveis para trajetórias de trabalho descontínuas e múltiplas.",
+      "trecho_original": "buscar reestruturar a base de financiamento da Previdência, buscando a diversidade das fontes de custeio. Queremos construir mecanismos contributivos mais flexíveis, capazes de acompanhar trajetórias ocupacionais descontínuas e múltiplas",
+      "pagina": 77,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Combate à pobreza e fome",
+      "id": "pobreza-e-fome-01",
+      "titulo": "Proteção social: manter, aperfeiçoar e ampliar",
+      "resumo": "Propõe manter, aperfeiçoar e ampliar as políticas de proteção social para quem mais necessita.",
+      "trecho_original": "Por isso, devemos manter, aperfeiçoar e ampliar as políticas de proteção social para quem mais necessita.",
+      "pagina": 18,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Combate à pobreza e fome",
+      "id": "pobreza-e-fome-02",
+      "titulo": "Proteção social básica e especial no SUAS",
+      "resumo": "Propõe fortalecer a Proteção Social Básica e a Proteção Social Especial de média e alta complexidade, com mais recursos e expansão e modernização da rede de atendimento.",
+      "trecho_original": "No próximo mandato, avançaremos ainda mais no fortalecimento da Proteção Social Básica e da Proteção Social Especial de média e alta complexidade, seja com mais recursos para atendimento às populações, seja por meio da expansão e modernização da rede de atendimento.",
+      "pagina": 25,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Infraestrutura e logística",
+      "id": "infraestrutura-01",
+      "titulo": "Concessões rodoviárias e ferroviárias na nova edição do PAC",
+      "resumo": "Propõe, na nova edição do Novo PAC, manter o ritmo das concessões rodoviárias e intensificar as de ferrovias, com leilão de novos projetos e repactuação dos contratos existentes.",
+      "trecho_original": "A nova edição do Novo PAC manterá a articulação dos investimentos públicos e privados em infraestrutura logística, dando sequência a obras públicas e concessões. Manteremos o ritmo nas concessões rodoviárias e intensificaremos as de ferrovias em duas frentes: leilão de novos projetos e repactuação dos contratos existentes.",
+      "pagina": 53,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Infraestrutura e logística",
+      "id": "infraestrutura-02",
+      "titulo": "Aeroportos regionais e novas rotas aéreas",
+      "resumo": "Propõe dar continuidade ao fortalecimento dos investimentos em aeroportos regionais e a medidas de incentivo a novas rotas aéreas.",
+      "trecho_original": "daremos continuidade ao fortalecimento dos investimentos em aeroportos regionais e medidas de incentivo a novas rotas aéreas.",
+      "pagina": 53,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Energia e combustíveis",
+      "id": "energia-01",
+      "titulo": "Petrobras na distribuição de combustíveis e no refino",
+      "resumo": "Propõe que a Petrobras volte ao segmento de distribuição de combustíveis, amplie a capacidade de refino e a atuação da Transpetro em logística de GNL.",
+      "trecho_original": "A Petrobras deverá retornar ao segmento de distribuição de combustíveis, expandindo sua capacidade de refino e ampliando a atuação da Transpetro para logística de GNL.",
+      "pagina": 67,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Energia e combustíveis",
+      "id": "energia-02",
+      "titulo": "Fontes renováveis, armazenamento e substituição de combustíveis fósseis",
+      "resumo": "Propõe aumentar a participação de fontes renováveis, ampliar investimentos em armazenamento e flexibilidade do sistema elétrico e substituir gradualmente combustíveis fósseis por biocombustíveis e de baixo carbono.",
+      "trecho_original": "Daremos sequência à estratégia de incrementar a participação de fontes renováveis, ampliar os investimentos em armazenamento e flexibilidade do sistema elétrico, e acelerar a substituição progressiva de combustíveis fósseis por biocombustíveis e combustíveis de baixa intensidade de carbono, incluindo derivados de hidrogênio.",
+      "pagina": 64,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Moradia",
+      "id": "moradia-01",
+      "titulo": "Minha Casa Minha Vida ampliado e Compra Assistida",
+      "resumo": "Propõe manter e ampliar o Minha Casa Minha Vida para todas as faixas de renda, com foco nas famílias de mais baixa renda, e criar novos instrumentos, como o Compra Assistida.",
+      "trecho_original": "O MCMV será mantido e ampliado no próximo mandato, para todas as faixas de renda e preservando seu foco nas famílias de mais baixa renda. Serão mobilizados novos instrumentos para ampliar o acesso à moradia, como o Compra Assistida, que, em situações excepcionais, permite a aquisição de imóveis já prontos.",
+      "pagina": 45,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Moradia",
+      "id": "moradia-02",
+      "titulo": "Recursos para obras nas periferias e novas seleções",
+      "resumo": "Propõe assegurar recursos para concluir todas as obras de projetos que envolvem infraestrutura, moradia digna, equipamentos e serviços públicos nas periferias, e fazer novas rodadas de seleção para apoiar mais projetos.",
+      "trecho_original": "propostas, que envolvem provimento de infraestrutura, moradia digna, equipamentos e serviços públicos. No próximo mandato, todas estas obras terão recursos assegurados para sua conclusão, para garantir melhores condições de vida às periferias por elas atendidas. Faremos novas rodadas de seleção, visando apoiar mais projetos",
+      "pagina": 46,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Cidades, mobilidade e riscos",
+      "id": "cidades-e-mobilidade-01",
+      "titulo": "Transporte coletivo de alta capacidade",
+      "resumo": "Propõe continuar apoiando investimentos em transporte coletivo de alta capacidade e a modernização e eletrificação progressiva das frotas do transporte coletivo.",
+      "trecho_original": "Nosso compromisso é continuar apoiando investimentos em transporte coletivo de alta capacidade e na modernização e eletrificação progressiva das frotas do transporte coletivo.",
+      "pagina": 46,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Cidades, mobilidade e riscos",
+      "id": "cidades-e-mobilidade-02",
+      "titulo": "Defesa Civil e adaptação climática nas cidades",
+      "resumo": "Propõe aperfeiçoar a capacidade de resposta, seguir aprimorando a Defesa Civil e fomentar a adaptação climática com infraestrutura verde, proteção de mananciais e ocupação resiliente do território.",
+      "trecho_original": "Vamos aperfeiçoar nossa capacidade de resposta e seguir aprimorando a Defesa Civil. Queremos fomentar a adaptação climática por meio de infraestrutura verde, proteção de mananciais e ocupação resiliente do território.",
+      "pagina": 47,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Saneamento e água",
+      "id": "saneamento-e-agua-01",
+      "titulo": "Universalização de água tratada e esgotamento sanitário",
+      "resumo": "Propõe continuar perseguindo o objetivo de apoiar estados e municípios a universalizar o acesso à água tratada e ao esgotamento sanitário.",
+      "trecho_original": "Continuaremos, no próximo mandato, a perseguir o objetivo de apoiar estados e municípios a universalizar acesso à água tratada e ao esgotamento sanitário",
+      "pagina": 46,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Saneamento e água",
+      "id": "saneamento-e-agua-02",
+      "titulo": "Programa Cisternas",
+      "resumo": "Propõe ampliar o Programa Cisternas em regiões com estresse hídrico, para garantir água para consumo e produção.",
+      "trecho_original": "Ampliaremos o Programa Cisternas em regiões com estresse hídrico, garantindo água para consumo e produção.",
+      "pagina": 60,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Conectividade e governo digital",
+      "id": "governo-digital-01",
+      "titulo": "Serviços públicos digitais",
+      "resumo": "Propõe continuar investindo na universalização dos serviços públicos digitais e em infraestruturas públicas digitais que deem suporte à personalização dos serviços.",
+      "trecho_original": "Vamos continuar investindo na universalização dos serviços públicos digitais de qualidade, e na construção de infraestruturas públicas digitais que deem suporte à personalização dos serviços.",
+      "pagina": 17,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Conectividade e governo digital",
+      "id": "governo-digital-02",
+      "titulo": "Fibra óptica e 5G no campo",
+      "resumo": "Propõe reduzir o déficit de fibra óptica, que atinge 11% dos municípios, e ampliar o 5G no campo, com prioridade para Norte, Nordeste e periferias.",
+      "trecho_original": "Vamos reduzir o déficit de fibra óptica que ainda atinge 11% dos municípios e ampliar o 5G no campo, com prioridade para Norte, Nordeste e periferias.",
+      "pagina": 55,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Desenvolvimento regional",
+      "id": "desenvolvimento-regional-01",
+      "titulo": "Fundo Nacional de Desenvolvimento Regional",
+      "resumo": "Propõe regulamentar o Fundo Nacional de Desenvolvimento Regional, criado na reforma tributária, para apoiar investimentos e políticas que reduzam desigualdades sociais e regionais.",
+      "trecho_original": "o Fundo Nacional de Desenvolvimento Regional que será regulamentado no próximo período. Seus recursos permitirão apoiar investimentos e políticas redutoras das desigualdades sociais e regionais",
+      "pagina": 56,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Desenvolvimento regional",
+      "id": "desenvolvimento-regional-02",
+      "titulo": "Indústria eletrointensiva no Nordeste",
+      "resumo": "Propõe transformar o Nordeste em polo de indústrias que usam muita energia renovável, como siderurgia verde, fertilizantes, química, cimento, alumínio, minerais críticos e hidrogênio de baixo carbono.",
+      "trecho_original": "o Nordeste, que apresenta novas perspectivas de desenvolvimento por concentrar hoje cerca de 70% da geração eólica e solar do país. Vamos transformar a região em um polo de atração de plantas industriais eletrointensivas que buscam energia renovável e previsível para produzir com baixa emissão — siderurgia verde, fertilizantes, química, cimento, alumínio, processamento de minerais críticos, hidrogênio de baixo carbono e seus derivados.",
+      "pagina": 56,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Turismo",
+      "id": "turismo-01",
+      "titulo": "Novos roteiros turísticos",
+      "resumo": "Propõe criar e promover novos roteiros turísticos baseados em gastronomia, arte, cultura e ecoturismo.",
+      "trecho_original": "Buscaremos criar e promover novos roteiros turísticos baseados em temas como gastronomia, arte, cultura e ecoturismo, que atraem nichos de mercado específicos.",
+      "pagina": 57,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Turismo",
+      "id": "turismo-02",
+      "titulo": "Destinos turísticos e promoção internacional",
+      "resumo": "Propõe desenvolver destinos turísticos baseados na riqueza natural e na diversidade cultural e avançar na promoção internacional do Brasil.",
+      "trecho_original": "Atuaremos para desenvolver destinos turísticos assentados na riqueza natural e diversidade cultural. [...] Avançaremos na promoção internacional do Brasil no exterior.",
+      "pagina": 57,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Agronegócio",
+      "id": "agronegocio-01",
+      "titulo": "Crédito rural e Plano Safra",
+      "resumo": "Propõe fortalecer o crédito rural, ampliando os recursos do Plano Safra e assegurando juros compatíveis com a rentabilidade da atividade agropecuária.",
+      "trecho_original": "Continuaremos fortalecendo o crédito rural, ampliando os recursos do Plano Safra e assegurando juros compatíveis com a rentabilidade da atividade agropecuária.",
+      "pagina": 61,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Agronegócio",
+      "id": "agronegocio-02",
+      "titulo": "Seguro rural e catástrofes climáticas",
+      "resumo": "Propõe fortalecer a política de seguro rural e dialogar com o setor produtivo para criar um instrumento que cubra perdas sistêmicas por quebras severas de safra.",
+      "trecho_original": "Daremos especial atenção ao fortalecimento da política de seguro rural. Estabeleceremos diálogo com o setor produtivo para viabilizar um instrumento de mitigação dos efeitos das catástrofes para cobrir perdas sistêmicas decorrentes de quebras severas de safra",
+      "pagina": 62,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Agricultura familiar e terra",
+      "id": "agricultura-familiar-01",
+      "titulo": "Plano Safra da Agricultura Familiar",
+      "resumo": "Propõe continuar expandindo o Plano Safra da Agricultura Familiar, com juros compatíveis com o perfil do agricultor e prioridade para alimentos da cesta básica.",
+      "trecho_original": "Vamos continuar expandindo o Plano Safra da Agricultura Familiar, com juros compatíveis com o perfil do agricultor e tipo de produto, com prioridade para produção de alimentos da cesta básica.",
+      "pagina": 59,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Agricultura familiar e terra",
+      "id": "agricultura-familiar-02",
+      "titulo": "Reforma agrária e crédito fundiário",
+      "resumo": "Propõe continuar a política de reforma agrária, assentando as famílias acampadas, estruturando os assentamentos e ampliando o acesso ao crédito fundiário.",
+      "trecho_original": "Continuaremos a avançar na política de reforma agrária, assentando as famílias acampadas, estruturando os assentamentos e ampliando o acesso ao crédito fundiário.",
+      "pagina": 60,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Meio ambiente e florestas",
+      "id": "meio-ambiente-01",
+      "titulo": "Desmatamento líquido zero até 2030",
+      "resumo": "Propõe alcançar o desmatamento líquido zero até 2030, com atuação integrada do governo nos planos de controle e prevenção do desmatamento e no Plano Nacional de Manejo Integrado do Fogo.",
+      "trecho_original": "No próximo mandato, continuaremos trabalhando para alcançar o desmatamento líquido zero até 2030, meta que reafirmamos. Para isto, todas as instâncias do governo persistirão atuando de forma integrada na implementação dos planos de controle e prevenção do desmatamento e na implementação plena do Plano Nacional de Manejo Integrado do Fogo.",
+      "pagina": 70,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Meio ambiente e florestas",
+      "id": "meio-ambiente-02",
+      "titulo": "Fiscalização, rastreabilidade e monitoramento por satélite",
+      "resumo": "Propõe fortalecer a fiscalização, buscar dialogar com o setor produtivo sobre rastreabilidade e devida diligência nas cadeias produtivas e expandir o monitoramento por satélite e a inteligência artificial contra crimes ambientais.",
+      "trecho_original": "Seguiremos fortalecendo e aprimorando as ações de fiscalização. Buscaremos dialogar com o setor produtivo nacional para estabelecer mecanismos de rastreabilidade e devida diligência nas cadeias produtivas. Vamos expandir monitoramento satelital e uso de inteligência artificial no combate a crimes ambientais.",
+      "pagina": 72,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Clima e transição ecológica",
+      "id": "clima-01",
+      "titulo": "Fundo Clima e Eco Invest para financiamento climático",
+      "resumo": "Propõe ampliar os instrumentos de financiamento climático, mantendo o Fundo Clima e o Eco Invest para financiar a descarbonização da economia.",
+      "trecho_original": "Seguiremos ampliando os instrumentos necessários para o financiamento climático. O Fundo Clima e o Eco Invest continuarão a ser instrumentos fundamentais para o financiar a descarbonização da economia.",
+      "pagina": 71,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Clima e transição ecológica",
+      "id": "clima-02",
+      "titulo": "Regulamentação do mercado de carbono (SBCE)",
+      "resumo": "Propõe avançar na regulamentação do Sistema Brasileiro de Comércio de Emissões (SBCE), articulada com os objetivos da Nova Indústria Brasil.",
+      "trecho_original": "Avançaremos em uma regulamentação do Sistema Brasileiro de Comércio de Emissões (SBCE), aprovado neste mandato, articulada com objetivos da Nova Indústria Brasil.",
+      "pagina": 51,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Mulheres",
+      "id": "mulheres-01",
+      "titulo": "Rede de proteção às mulheres vítimas de violência",
+      "resumo": "Propõe concluir 30 Casas da Mulher Brasileira e 15 Centros de Referência da Mulher Brasileira, ampliar as Salas Lilás e distribuir aos estados kits de monitoramento de agressores.",
+      "trecho_original": "Vamos dar sequência ao Pacto, ampliando a rede de proteção às mulheres – concluiremos as 30 Casas da Mulher Brasileira e os 15 Centros de Referência da Mulher Brasileira. Ampliaremos as Salas Lilás e vamos adquirir e distribuir aos Estados kits para aprimorar o monitoramento de agressores.",
+      "pagina": 21,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+      "etiquetas": [
+        "mulheres"
+      ]
+    },
+    {
+      "area": "Mulheres",
+      "id": "mulheres-02",
+      "titulo": "Planos de ação pela igualdade salarial",
+      "resumo": "Propõe tornar obrigatória a execução dos Planos de Ação nas empresas com desigualdades identificadas, com metas progressivas de redução das disparidades salariais e de ampliação da presença de mulheres, especialmente negras e pessoas com deficiência.",
+      "trecho_original": "A execução dos Planos de Ação nas empresas com desigualdades identificadas será tornada obrigatória, com metas progressivas de redução das disparidades salariais e ampliação da presença de mulheres, especialmente negras e pessoas com deficiência.",
+      "pagina": 75,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+      "etiquetas": [
+        "mulheres"
+      ]
+    },
+    {
+      "area": "Igualdade racial e combate à discriminação",
+      "id": "igualdade-racial-01",
+      "titulo": "Combate ao racismo e Estatuto da Igualdade Racial",
+      "resumo": "Propõe manter o combate ao racismo no centro da estratégia de desenvolvimento e avançar na regulamentação do Estatuto da Igualdade Racial.",
+      "trecho_original": "Manteremos o combate ao racismo no centro de nossa estratégia de desenvolvimento [...] Avançaremos ainda mais na regulamentação do Estatuto da Igualdade Racial para a consolidação da equidade como política de Estado.",
+      "pagina": 19,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Igualdade racial e combate à discriminação",
+      "id": "igualdade-racial-02",
+      "titulo": "Política migratória e combate à xenofobia",
+      "resumo": "Propõe implementar plenamente a Política Nacional de Migrações, Refúgio e Apatridia, com acolhimento de migrantes e refugiados, combate à xenofobia e mais acesso a direitos e serviços públicos.",
+      "trecho_original": "Consolidaremos uma política migratória humanista e estratégica, assegurando a plena implementação da Política Nacional de Migrações, Refúgio e Apatridia (PNMRA), o acolhimento digno de migrantes e refugiados, o combate à xenofobia e a ampliação do acesso a direitos e serviços públicos.",
+      "pagina": 30,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Povos indígenas e quilombolas",
+      "id": "indigenas-e-quilombolas-01",
+      "titulo": "Terras indígenas e Universidade Indígena",
+      "resumo": "Propõe garantir proteção aos territórios dos povos indígenas, com ações de demarcação e desintrusão sempre que necessárias, e implantar plenamente a Universidade Indígena.",
+      "trecho_original": "Reafirmamos igualmente o compromisso com a proteção dos povos indígenas, de seus territórios, culturas e modos de vida. Persistiremos, garantindo proteção a seus territórios, com ações para demarcação e desintrusão de terras sempre que necessárias. [...] Vamos implantar plenamente a Universidade Indígena, criada em 2026.",
+      "pagina": 20,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Povos indígenas e quilombolas",
+      "id": "indigenas-e-quilombolas-02",
+      "titulo": "Titulação de territórios quilombolas",
+      "resumo": "Propõe acelerar a titulação dos territórios quilombolas e a regularização fundiária dos povos e comunidades tradicionais.",
+      "trecho_original": "é crítico acelerar a titulação dos territórios quilombola e a regularização fundiária dos povos e comunidades tradicionais, promovendo a reparação histórica.",
+      "pagina": 60,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Crianças e adolescentes",
+      "id": "criancas-e-adolescentes-01",
+      "titulo": "Proteção digital: ECA Digital e uso de telas",
+      "resumo": "Propõe aprimorar o ECA Digital, regulamentar o uso de telas por faixa etária, promover o uso seguro das tecnologias e regulamentar plataformas de jogos e ambientes digitais.",
+      "trecho_original": "Não recuaremos um passo sequer na proteção digital de crianças e adolescentes, com aprimoramento do ECA Digital, regulamentação do uso de telas por faixa etária, promoção do uso seguro das tecnologias e regulamentação das plataformas de jogos e dos ambientes digitais.",
+      "pagina": 24,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+      "etiquetas": [
+        "criancas"
+      ]
+    },
+    {
+      "area": "Crianças e adolescentes",
+      "id": "criancas-e-adolescentes-02",
+      "titulo": "Combate à pedofilia",
+      "resumo": "Propõe reforçar ações de inteligência e justiça para agilizar investigações e punição de crimes contra crianças e adolescentes.",
+      "trecho_original": "Reforçaremos ações de inteligência e justiça para agilizar as investigações e a punição de crimes contra crianças e adolescentes.",
+      "pagina": 24,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+      "etiquetas": [
+        "criancas"
+      ]
+    },
+    {
+      "area": "Judiciário e Supremo",
+      "id": "judiciario-01",
+      "titulo": "Diálogo com o Judiciário",
+      "resumo": "Propõe manter diálogo permanente com os atores do Judiciário, respeitada a autonomia dos Poderes, diante da morosidade decisória que o plano aponta no sistema de Justiça.",
+      "trecho_original": "o sistema de Justiça brasileira ainda é marcado por uma morosidade decisória decorrente da quantidade excessiva de processos e instâncias recursais. Nesse sentido, propomos a continuidade do diálogo permanente com os atores do judiciário, respeitada a autonomia dos Poderes, para estimular o aperfeiçoamento do sistema de Justiça.",
+      "pagina": 16,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Reforma política e participação social",
+      "id": "reforma-politica-01",
+      "titulo": "Reforma política e eleitoral",
+      "resumo": "Propõe fazer a reforma política e eleitoral, para superar a distância entre a representação política e a composição da sociedade e recuperar a confiança no sistema político.",
+      "trecho_original": "A reforma política e eleitoral é inadiável para superar a dissociação entre a representação política e a composição real da sociedade brasileira, para fortalecer a democracia brasileira, e recuperar a confiança da sociedade no sistema político.",
+      "pagina": 15,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Reforma política e participação social",
+      "id": "reforma-politica-02",
+      "titulo": "Conferências nacionais e controle social",
+      "resumo": "Propõe continuar realizando conferências para implantar e aprimorar políticas e programas sob responsabilidade federal.",
+      "trecho_original": "continuaremos realizando conferências para implantar e aprimorar políticas e programas sob responsabilidade federal",
+      "pagina": 15,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Liberdade de expressão e plataformas",
+      "id": "liberdade-de-expressao-01",
+      "titulo": "Regulação de redes sociais e plataformas digitais",
+      "resumo": "Propõe avançar na regulação das redes sociais e plataformas digitais, que o plano justifica para impedir que difundam desinformação e campanhas de ódio.",
+      "trecho_original": "É parte da reafirmação da democracia avançar ainda mais na regulação democrática das redes sociais e das plataformas digitais, de modo a impedir que elas difundam desinformação, acolham campanhas de ódio e outras formas de comunicação nocivas para a democracia.",
+      "pagina": 16,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Liberdade de expressão e plataformas",
+      "id": "liberdade-de-expressao-02",
+      "titulo": "Transparência algorítmica",
+      "resumo": "Propõe consolidar a transparência algorítmica e a rastreabilidade de conteúdo sintético, com base no Centro Nacional de Transparência Algorítmica.",
+      "trecho_original": "Vamos consolidar a transparência algorítmica e a rastreabilidade de conteúdo sintético, ancoradas no Centro Nacional de Transparência Algorítmica",
+      "pagina": 55,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Gestão pública, estatais e anticorrupção",
+      "id": "gestao-publica-01",
+      "titulo": "Controle, integridade e combate à corrupção",
+      "resumo": "Propõe dar sequência às medidas de controle e integridade na administração pública e ao combate à corrupção, fortalecendo prevenção, investigação e responsabilização.",
+      "trecho_original": "Vamos dar sequência às medidas de controle e integridade da administração pública e ao combate à corrupção. [...] fortalecendo a prevenção, a investigação e a responsabilização de corruptos e corruptores, inclusive os do andar de cima",
+      "pagina": 18,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Gestão pública, estatais e anticorrupção",
+      "id": "gestao-publica-02",
+      "titulo": "Serviços de suporte compartilhados entre ministérios",
+      "resumo": "Propõe aprimorar o modelo de centralização e compartilhamento de serviços de suporte, como gestão de pessoas, orçamento e contratações, entre ministérios e órgãos do Executivo federal.",
+      "trecho_original": "Aprimoraremos o modelo de centralização e compartilhamento de serviços de suporte (gestão de pessoas, orçamento, contratações etc.) entre ministérios e órgãos do Executivo federal",
+      "pagina": 17,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Pacto federativo e orçamento",
+      "id": "pacto-federativo-01",
+      "titulo": "Sistema de emendas parlamentares",
+      "resumo": "Propõe enfrentar o que o plano chama de grave distorção no orçamento federal, o atual sistema de emendas parlamentares; na p. 16, o plano diz que o tema deve ser debatido com a sociedade.",
+      "trecho_original": "Propomos ainda enfrentar uma grave distorção na elaboração e gestão do orçamento federal – o atual sistema de emendas parlamentares.",
+      "pagina": 15,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Pacto federativo e orçamento",
+      "id": "pacto-federativo-02",
+      "titulo": "Cooperação e governança federativa",
+      "resumo": "Propõe fortalecer a cooperação e a governança federativa, com compartilhamento de infraestrutura pública digital, formação de servidores e estratégias nacionais, para reduzir diferenças entre estados e municípios.",
+      "trecho_original": "Para superar a desigualdade na capacidade dos estados e municípios de prestar melhores serviços à população, buscaremos fortalecer ainda mais a cooperação e a governança federativa, por meio de instrumentos como compartilhamento de infraestrutura pública digital, formação de servidores e elaboração de estratégias nacionais.",
+      "pagina": 18,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Política externa",
+      "id": "politica-externa-01",
+      "titulo": "Mercosul e integração regional",
+      "resumo": "Propõe aprofundar o Mercosul e os espaços de integração regional, especialmente em infraestrutura, defesa, segurança pública, energia e saúde.",
+      "trecho_original": "Seguiremos aprofundando o Mercosul e os espaços de integração regional, especialmente nas áreas de infraestrutura, defesa, segurança pública, energia e saúde.",
+      "pagina": 80,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Política externa",
+      "id": "politica-externa-02",
+      "titulo": "Aproximação com BRICS, Sul Global e G20",
+      "resumo": "Propõe aprofundar a aproximação geopolítica com o BRICS, o Sul Global e o G20.",
+      "trecho_original": "Aprofundaremos a aproximação geopolítica com o BRICS e com o Sul Global, bem como com o G20",
+      "pagina": 81,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Defesa nacional",
+      "id": "defesa-01",
+      "titulo": "Base Industrial e Tecnológica de Defesa",
+      "resumo": "Propõe fortalecer a Base Industrial e Tecnológica de Defesa, para dar mais autonomia nacional e estimular inovações com efeito na economia.",
+      "trecho_original": "fortaleceremos a Base Industrial e Tecnológica de Defesa, de modo a assegurar maior autonomia nacional nesse campo e estimular inovações com impactos positivos sobre o conjunto da economia.",
+      "pagina": 78,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Defesa nacional",
+      "id": "defesa-02",
+      "titulo": "Defesa cibernética",
+      "resumo": "Propõe reforçar a defesa cibernética, protegendo infraestruturas críticas e bases de dados governamentais, com tecnologias próprias e menos dependência externa.",
+      "trecho_original": "Reforçaremos a defesa cibernética, protegendo infraestruturas críticas e bases de dados governamentais, desenvolvendo tecnologias próprias e reduzindo a dependência externa em áreas estratégicas.",
+      "pagina": 79,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    }
+  ]
+}

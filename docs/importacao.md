@@ -19,7 +19,7 @@ npm run importar -- --candidato a --pdf ~/Downloads/plano-a.pdf \
   --url "https://divulgacandcontas.tse.jus.br/..." --nome "Nome" --baixado-em 2026-10-12 [--url-pdf ...]
 ```
 
-Cria `data/rascunho/candidato-a.json` (fonte, hash, 8 áreas "em revisão", sem propostas) e, em `fontes/` (fora do git), o texto de cada página e as páginas com palavras-chave por tema. Repita para o candidato B. As letras A e B são só rótulos.
+Cria `data/rascunho/candidato-a.json` (fonte, hash, todas as áreas "em revisão", sem propostas) e, em `fontes/` (fora do git), o texto de cada página e as páginas com palavras-chave por tema. Repita para o candidato B. As letras A e B são só rótulos.
 
 - PDF escaneado: faça OCR antes (`ocrmypdf`) ou use `--aceitar-sem-texto`; a fonte fica marcada `ocr: true` e a citação literal é menos confiável.
 - Limites de segurança: 50 MB e 2000 páginas. Rode o importador só na sua máquina.
