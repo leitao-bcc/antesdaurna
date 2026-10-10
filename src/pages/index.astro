@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import Indice from '../components/Indice.astro';
+import Temas from '../components/Temas.astro';
 import Busca from '../components/Busca.astro';
 import Quiz from '../components/Quiz.astro';
 import { candidatos } from '../lib/dados.mjs';
@@ -22,7 +22,7 @@ const [a, b] = candidatos;
       <div class="cartao-cand b" data-lado="b"><b>{b.letra}</b><span>{b.nome}</span></div>
     </div>
   </section>
-  <Indice />
+  <Temas />
   <Busca />
   <Quiz />
   <section class="miolo" aria-labelledby="t-metodo">
