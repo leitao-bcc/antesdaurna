@@ -44,7 +44,7 @@
       "additionalProperties": {
         "$ref": "#/$defs/cobertura"
       },
-      "description": "As 8 áreas de src/lib/areas.mjs (o validador exige todas e só elas)."
+      "description": "Todas as áreas de src/lib/areas.mjs (o validador exige todas e só elas)."
     },
     "propostas": {
       "type": "array",

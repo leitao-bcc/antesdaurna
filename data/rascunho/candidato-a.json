@@ -11,7 +11,7 @@
     "numero": "22",
     "partido": "PL",
     "trechos_conferidos_em": "2026-10-10",
-    "trechos_conferidos_sha256": "eaa460aa8b08671436833ed0fec0a691043f70374c8714937f113bead507fe17"
+    "trechos_conferidos_sha256": "ceff0e35cc28e433289c709aa15afd313f3622bfd1b785e14993dd2143ef5a8b"
   },
   "cobertura": {
     "Saúde": {
@@ -31,6 +31,10 @@
       "revisado": false
     },
     "Emprego e renda": {
+      "consta": true,
+      "revisado": false
+    },
+    "Aposentados e previdência": {
       "consta": true,
       "revisado": false
     },
@@ -262,6 +266,33 @@
       "resumo": "Propõe aperfeiçoar as leis de incentivo à cultura, corrigindo distorções e favorecendo o desenvolvimento de outros polos regionais.",
       "trecho_original": "Na Cultura, valorizaremos as tradições brasileiras e aperfeiçoaremos as leis de incentivo, corrigindo distorções e favorecendo o desenvolvimento de outros polos regionais.",
       "pagina": 41,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Aposentados e previdência",
+      "id": "aposentados-e-previdencia-01",
+      "titulo": "Digitalizar processos e profissionalizar a gestão do INSS",
+      "resumo": "Propõe investir em tecnologia, digitalizar os processos do INSS, dar continuidade ao Meu INSS e profissionalizar a gestão do órgão, medida pelo tempo que o aposentado espera para receber.",
+      "trecho_original": "Vamos investir em tecnologia e digitalizar os processos do INSS, dando continuidade ao caminho do Meu INSS, e profissionalizar a gestão do órgão. [...] entra a gestão profissional, medida por uma coisa só: quanto tempo o aposentado espera para receber.",
+      "pagina": 26,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Aposentados e previdência",
+      "id": "aposentados-e-previdencia-02",
+      "titulo": "Pacote antifraude na Previdência",
+      "resumo": "Propõe reeditar um pacote antifraude na Previdência, nos moldes do adotado em 2019.",
+      "trecho_original": "Reeditaremos um pacote antifraude na Previdência, nos moldes do que fizemos em 2019",
+      "pagina": 72,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Aposentados e previdência",
+      "id": "aposentados-e-previdencia-03",
+      "titulo": "Nova governança do consignado de beneficiários do INSS",
+      "resumo": "Propõe mudar a governança do consignado dos beneficiários do INSS, revendo quem opera os descontos e como são autorizados.",
+      "trecho_original": "Vamos mudar a governança do consignado para que a fraude não se repita, revendo quem opera esses descontos e como são autorizados",
+      "pagina": 72,
       "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
     }
   ]

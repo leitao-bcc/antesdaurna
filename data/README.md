@@ -36,7 +36,7 @@ Dois arquivos JSON: `candidato-a.json` (`id: "a"`, `letra: "A"`) e `candidato-b.
 }
 ```
 
-- **Áreas:** Saúde, Educação, Segurança, Economia, Emprego e renda, Meio ambiente, Moradia, Cultura e esporte (lista única em `src/lib/areas.mjs`). A `cobertura` declara as 8.
+- **Áreas:** Saúde, Educação, Segurança, Economia, Emprego e renda, Aposentados e previdência, Meio ambiente, Moradia, Cultura e esporte (lista única em `src/lib/areas.mjs`). A `cobertura` declara todas.
 - **"Não consta no plano"** só aparece quando `consta: false` e `revisado: true`. Sem revisão, o site mostra "Em revisão".
 - **`status: "revisado"`** exige, para os dois arquivos: todas as áreas revisadas, `pagina >= 1`, resumos que começam com "propõe" e sem placeholders. O build de produção (Cloudflare, branch `main`) só aceita `revisado`.
 - `link_pdf` precisa ser `https` do domínio do TSE (e igual a `fonte.url_pdf`, se existir). O site acrescenta `#page=N`, onde N é a página **do PDF**.

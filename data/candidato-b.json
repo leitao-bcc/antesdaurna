@@ -24,6 +24,10 @@
       "consta": true,
       "revisado": false
     },
+    "Aposentados e previdência": {
+      "consta": true,
+      "revisado": false
+    },
     "Meio ambiente": {
       "consta": true,
       "revisado": false
@@ -177,6 +181,24 @@
       "id": "cultura-e-esporte-02",
       "area": "Cultura e esporte",
       "titulo": "[Exemplo: proposta 2 de Cultura e esporte]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "aposentados-e-previdencia-01",
+      "area": "Aposentados e previdência",
+      "titulo": "[Exemplo: proposta 1 de Aposentados e previdência]",
+      "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
+      "trecho_original": "[Exemplo: trecho literal do plano]",
+      "pagina": 0,
+      "link_pdf": "https://divulgacandcontas.tse.jus.br/"
+    },
+    {
+      "id": "aposentados-e-previdencia-02",
+      "area": "Aposentados e previdência",
+      "titulo": "[Exemplo: proposta 2 de Aposentados e previdência]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
       "trecho_original": "[Exemplo: trecho literal do plano]",
       "pagina": 0,

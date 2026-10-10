@@ -13,7 +13,7 @@ Site independente e apartidário que compara, lado a lado, os planos de governo 
 - Não fazer impulsionamento pago (restrito a candidatos/partidos).
 
 ## Seções
-1. Comparador por área: Saúde, Educação, Segurança, Economia, Emprego e renda, Meio ambiente, Moradia, Cultura e esporte.
+1. Comparador por área: Saúde, Educação, Segurança, Economia, Emprego e renda, Aposentados e previdência, Meio ambiente, Moradia, Cultura e esporte.
 2. Busca por palavra/tema com trechos dos dois planos.
 3. Quiz às cegas: propostas sem nome, revela no fim.
 4. Como fizemos (metodologia) + rodapé "encontrou um erro?".

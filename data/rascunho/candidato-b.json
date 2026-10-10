@@ -11,7 +11,7 @@
     "numero": "13",
     "partido": "PT",
     "trechos_conferidos_em": "2026-10-10",
-    "trechos_conferidos_sha256": "ebcf3dcc579ff85a07f5bca6690bfda3908c483025871c198a1c04621d978f6f"
+    "trechos_conferidos_sha256": "5668af1318a82fd7bedee96faedba96f7d49790458b8c807f7d1e3e418a8c4a5"
   },
   "cobertura": {
     "Saúde": {
@@ -31,6 +31,10 @@
       "revisado": false
     },
     "Emprego e renda": {
+      "consta": true,
+      "revisado": false
+    },
+    "Aposentados e previdência": {
       "consta": true,
       "revisado": false
     },
@@ -262,6 +266,33 @@
       "resumo": "Propõe realizar, no próximo mandato, a Copa do Mundo de Futebol Feminino, em 8 capitais brasileiras.",
       "trecho_original": "No próximo mandato, realizaremos a Copa do Mundo de Futebol Feminino, que ocorrerá pela primeira vez na América do Sul. Continuaremos trabalhando para o sucesso do evento, que ocorrerá em 8 capitais brasileiras",
       "pagina": 43,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Aposentados e previdência",
+      "id": "aposentados-e-previdencia-01",
+      "titulo": "Concluir a modernização dos serviços previdenciários",
+      "resumo": "Propõe concluir, no próximo mandato, o processo de modernização e aprimoramento dos serviços previdenciários e aprimorar a política de acesso, em diálogo com a sociedade.",
+      "trecho_original": "no próximo mandato, concluiremos o processo de modernização e aprimoramento da prestação dos serviços previdenciários. Vamos continuar, em diálogo com a sociedade, a aprimorar a política de acesso",
+      "pagina": 77,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Aposentados e previdência",
+      "id": "aposentados-e-previdencia-02",
+      "titulo": "Reestruturar o financiamento e flexibilizar contribuições",
+      "resumo": "Propõe reestruturar a base de financiamento da Previdência, com diversidade de fontes de custeio, e criar mecanismos contributivos mais flexíveis para quem tem trajetórias de trabalho descontínuas.",
+      "trecho_original": "buscar reestruturar a base de financiamento da Previdência, buscando a diversidade das fontes de custeio. Queremos construir mecanismos contributivos mais flexíveis, capazes de acompanhar trajetórias ocupacionais descontínuas e múltiplas",
+      "pagina": 77,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "area": "Aposentados e previdência",
+      "id": "aposentados-e-previdencia-03",
+      "titulo": "Previdência no trabalho por plataforma",
+      "resumo": "Propõe inserir, na regulação do trabalho mediado por plataforma, o financiamento da previdência social e a cobertura para aposentadoria, incapacidade temporária, acidentes, maternidade e outras contingências.",
+      "trecho_original": "Buscaremos inserir na regulação do trabalho mediado por plataforma o financiamento da previdência social e a cobertura adequada para aposentadoria, incapacidade temporária, acidentes, maternidade ou demais contingências sociais.",
+      "pagina": 77,
       "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
     }
   ]

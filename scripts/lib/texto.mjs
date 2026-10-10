@@ -9,6 +9,7 @@ export const PALAVRAS_CHAVE = {
   'Segurança': ['seguranca', 'policia', 'crime', 'violencia', 'presidio', 'penitenciar'],
   'Economia': ['economia', 'imposto', 'tribut', 'inflacao', 'juros', 'fiscal', 'divida', 'orcamento'],
   'Emprego e renda': ['emprego', 'salario', 'trabalho', 'renda', 'desemprego', 'previdencia'],
+  'Aposentados e previdência': ['aposentad', 'previdenc', 'inss', 'pension', 'salario minimo', 'bpc'],
   'Meio ambiente': ['meio ambiente', 'clima', 'desmatamento', 'amazonia', 'carbono', 'energia renovavel', 'sustentabil', 'sustentavel'],
   'Moradia': ['moradia', 'habitac', 'casa propria', 'aluguel', 'saneamento', 'urbano'],
   'Cultura e esporte': ['cultura', 'esporte', 'artista', 'lazer', 'patrimonio', 'cinema', 'atleta'],
