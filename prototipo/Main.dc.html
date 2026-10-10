@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Antes da Urna</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F4F2FA;}
+a{color:#4B32C3}a:hover{color:#2E1D8A}
+input:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #0F7A7A;outline-offset:2px}
+</style>
+</helmet>
+<div style="font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; color: #17142B; background: #F4F2FA; font-size: {{baseSize}}; line-height: 1.5; min-height: 100vh">
+
+<!-- Topo -->
+<header style="background: #17142B; color: #FFFFFF">
+<div style="max-width: 1120px; margin: 0 auto; padding: 14px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px">
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="display: flex; gap: 4px" aria-hidden="true">
+<div style="width: 18px; height: 28px; border-radius: 6px; background: #8F78FF"></div>
+<div style="width: 18px; height: 28px; border-radius: 6px; background: #22B3A8"></div>
+</div>
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.35em; letter-spacing: -0.02em">Antes da Urna</span>
+</div>
+<nav aria-label="Seções" style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px">
+<a href="#areas" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 10px">Por área</a>
+<a href="#busca" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 10px">Buscar</a>
+<a href="#quiz" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 10px">Às cegas</a>
+<a href="#metodo" style="color: #FFFFFF; text-decoration: none; padding: 10px 12px; border-radius: 10px">Como fizemos</a>
+<button type="button" onClick="{{ toggleSize }}" aria-pressed="{{ bigText }}" style="min-height: 44px; padding: 8px 14px; border-radius: 999px; border: 2px solid #FFFFFF; background: transparent; color: #FFFFFF; font: inherit; font-weight: 700; cursor: pointer">{{ sizeLabel }}</button>
+</nav>
+</div>
+</header>
+
+<!-- Hero -->
+<section style="max-width: 1120px; margin: 0 auto; padding: 56px 20px 40px; display: flex; flex-wrap: wrap; gap: 32px; align-items: center">
+<div style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<span style="align-self: flex-start; background: #E3DDFB; color: #2E1D8A; font-weight: 700; padding: 6px 14px; border-radius: 999px; font-size: 0.9em">Independente e apartidário · 2º turno, 25 de outubro</span>
+<h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(2.4rem, 6vw, 4.6rem); line-height: 1.02; letter-spacing: -0.035em">Duas propostas.<br>Uma decisão <span style="color: #4B32C3">sua</span>.</h1>
+<p style="margin: 0; font-size: 1.2em; max-width: 34em; color: #3D3858">Compare os planos de governo registrados no TSE, lado a lado, em linguagem simples. Sem opinião nossa, só o que cada candidatura escreveu.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px">
+<a href="#areas" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; border-radius: 14px; background: #17142B; color: #FFFFFF; text-decoration: none; font-weight: 700">Comparar por área</a>
+<a href="#quiz" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 24px; border-radius: 14px; border: 2px solid #17142B; color: #17142B; text-decoration: none; font-weight: 700">Testar às cegas</a>
+</div>
+</div>
+<div style="flex: 1 1 300px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px" aria-hidden="true">
+<div style="background: #6B4EE6; color: #FFFFFF; border-radius: 24px; padding: 22px; min-height: 200px; display: flex; flex-direction: column; justify-content: space-between">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 4em; line-height: 1">A</span>
+<span style="font-weight: 700">[Nome do candidato]</span>
+</div>
+<div style="background: #0F7A7A; color: #FFFFFF; border-radius: 24px; padding: 22px; min-height: 200px; display: flex; flex-direction: column; justify-content: space-between; margin-top: 36px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 4em; line-height: 1">B</span>
+<span style="font-weight: 700">[Nome do candidato]</span>
+</div>
+</div>
+</section>
+
+<!-- Por área -->
+<section id="areas" style="background: #FFFFFF; border-top: 1px solid #E3DFF0; border-bottom: 1px solid #E3DFF0">
+<div style="max-width: 1120px; margin: 0 auto; padding: 48px 20px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -0.02em">Escolha um tema</h2>
+<p style="margin: 0; color: #4A4566">A ordem dos candidatos é sorteada a cada visita.</p>
+</div>
+<div role="tablist" aria-label="Áreas" style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{ areas }}" as="ar" hint-placeholder-count="8">
+<button type="button" role="tab" aria-selected="{{ ar.selected }}" onClick="{{ ar.pick }}" style="min-height: 44px; padding: 8px 18px; border-radius: 999px; font: inherit; font-weight: 700; cursor: pointer; border: 2px solid #17142B; background: {{ ar.bg }}; color: {{ ar.fg }}">{{ ar.nome }}</button>
+</sc-for>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px">
+<sc-for list="{{ colunas }}" as="col" hint-placeholder-count="2">
+<div style="border-radius: 22px; border: 2px solid {{ col.cor }}; overflow: hidden; display: flex; flex-direction: column">
+<div style="background: {{ col.cor }}; color: #FFFFFF; padding: 16px 20px; display: flex; align-items: center; gap: 12px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 2em; line-height: 1">{{ col.letra }}</span>
+<span style="font-weight: 700">[Nome do candidato] · {{ areaNome }}</span>
+</div>
+<div style="padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 14px">
+<sc-for list="{{ col.itens }}" as="it" hint-placeholder-count="3">
+<article style="background: #F4F2FA; border-radius: 14px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 1.05em">{{ it.titulo }}</h3>
+<p style="margin: 0; color: #3D3858">{{ it.resumo }}</p>
+<a href="#" style="font-weight: 700; font-size: 0.92em">Ver no plano original, {{ it.pag }}</a>
+</article>
+</sc-for>
+</div>
+</div>
+</sc-for>
+</div>
+</div>
+</section>
+
+<!-- Busca -->
+<section id="busca" style="max-width: 1120px; margin: 0 auto; padding: 48px 20px; display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -0.02em">O que importa pra você?</h2>
+<label for="q" style="font-weight: 700">Busque uma palavra ou tema</label>
+<input id="q" type="search" value="{{ query }}" onInput="{{ onQuery }}" placeholder="Ex.: SUS, escola, imposto, polícia" style="min-height: 56px; padding: 0 20px; border-radius: 16px; border: 2px solid #17142B; font: inherit; font-size: 1.1em; background: #FFFFFF; color: #17142B; box-sizing: border-box; width: 100%">
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{ sugestoes }}" as="s" hint-placeholder-count="6">
+<button type="button" onClick="{{ s.pick }}" style="min-height: 44px; padding: 6px 16px; border-radius: 999px; border: 1px solid #C9C2E6; background: #FFFFFF; color: #2E1D8A; font: inherit; cursor: pointer">{{ s.termo }}</button>
+</sc-for>
+</div>
+<p style="margin: 0; color: #4A4566" aria-live="polite">{{ buscaStatus }}</p>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<sc-for list="{{ resultados }}" as="r" hint-placeholder-count="2">
+<div style="background: #FFFFFF; border-radius: 18px; border: 1px solid #E3DFF0; padding: 18px 20px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-weight: 700; color: #2E1D8A">{{ r.area }}</span>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px">
+<div style="border-left: 0; background: #EFEBFD; border-radius: 12px; padding: 12px 14px"><strong style="color: #4B32C3">A · </strong>{{ r.a }}</div>
+<div style="background: #E2F3F2; border-radius: 12px; padding: 12px 14px"><strong style="color: #0B5E5E">B · </strong>{{ r.b }}</div>
+</div>
+</div>
+</sc-for>
+</div>
+</section>
+
+<!-- Quiz -->
+<section id="quiz" style="background: #17142B; color: #FFFFFF">
+<div style="max-width: 1120px; margin: 0 auto; padding: 56px 20px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="color: #B9ACFF; font-weight: 700">Às cegas · {{ quizProgresso }}</span>
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -0.02em">Qual proposta você prefere?</h2>
+<p style="margin: 0; color: #CFC9E8">Sem nomes, sem cores de partido. No fim, a gente revela de quem era cada uma.</p>
+</div>
+<sc-if value="{{ quizAtivo }}" hint-placeholder-val="{{ true }}">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span style="font-weight: 700; font-size: 1.1em">{{ pergunta.tema }}</span>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px">
+<button type="button" onClick="{{ escolherX }}" style="text-align: left; min-height: 140px; padding: 20px; border-radius: 20px; border: 2px solid #FFFFFF; background: transparent; color: #FFFFFF; font: inherit; cursor: pointer; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.6em">Proposta X</span>
+<span>{{ pergunta.x }}</span>
+</button>
+<button type="button" onClick="{{ escolherY }}" style="text-align: left; min-height: 140px; padding: 20px; border-radius: 20px; border: 2px solid #FFFFFF; background: transparent; color: #FFFFFF; font: inherit; cursor: pointer; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.6em">Proposta Y</span>
+<span>{{ pergunta.y }}</span>
+</button>
+</div>
+</div>
+</sc-if>
+<sc-if value="{{ quizFim }}" hint-placeholder-val="{{ false }}">
+<div style="background: #FFFFFF; color: #17142B; border-radius: 22px; padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.6em">{{ quizResultado }}</span>
+<p style="margin: 0; color: #3D3858">Isso não é recomendação de voto: é só um espelho das suas escolhas. Veja as propostas completas antes de decidir.</p>
+<button type="button" onClick="{{ reiniciar }}" style="align-self: flex-start; min-height: 48px; padding: 0 22px; border-radius: 14px; border: 0; background: #17142B; color: #FFFFFF; font: inherit; font-weight: 700; cursor: pointer">Refazer</button>
+</div>
+</sc-if>
+</div>
+</section>
+
+<!-- Metodologia -->
+<section id="metodo" style="max-width: 1120px; margin: 0 auto; padding: 48px 20px 32px; display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -0.02em">Como fizemos</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<div style="background: #FFFFFF; border-radius: 18px; padding: 20px; border: 1px solid #E3DFF0"><strong>Fonte única</strong><p style="margin: 6px 0 0; color: #3D3858">Planos de governo registrados no TSE (DivulgaCandContas), com link para cada página citada.</p></div>
+<div style="background: #FFFFFF; border-radius: 18px; padding: 20px; border: 1px solid #E3DFF0"><strong>Mesmo tratamento</strong><p style="margin: 6px 0 0; color: #3D3858">Mesmo espaço, mesmos temas e ordem sorteada. Se um plano não fala de um tema, mostramos "não consta no plano".</p></div>
+<div style="background: #FFFFFF; border-radius: 18px; padding: 20px; border: 1px solid #E3DFF0"><strong>Resumos revisados</strong><p style="margin: 6px 0 0; color: #3D3858">[Informe aqui se usou IA para resumir e quem revisou cada texto.]</p></div>
+</div>
+</section>
+<footer style="border-top: 1px solid #E3DFF0">
+<div style="max-width: 1120px; margin: 0 auto; padding: 20px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; color: #4A4566; font-size: 0.92em">
+<span>Antes da Urna · projeto independente, sem vínculo com partidos ou campanhas.</span>
+<a href="#">Encontrou um erro? Fale com a gente</a>
+</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3400}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { area: 0, query: '', big: false, flip: false, step: 0, pontosA: 0 };
+  }
+  componentDidMount() {
+    this.setState({ flip: Math.random() < 0.5 });
+  }
+  dados() {
+    var nomes = ['Saúde', 'Educação', 'Segurança', 'Economia', 'Emprego e renda', 'Meio ambiente', 'Moradia', 'Cultura e esporte'];
+    var tags = [
+      'sus hospital remédio médico saúde',
+      'escola professor universidade ensino creche educação',
+      'polícia crime violência segurança presídio',
+      'imposto inflação juros economia gasto',
+      'emprego salário trabalho renda auxílio',
+      'clima desmatamento energia meio ambiente',
+      'moradia casa aluguel habitação',
+      'cultura esporte lazer arte'
+    ];
+    return nomes.map(function (n, i) {
+      var item = function (k) {
+        return { titulo: '[Proposta ' + k + ' — ' + n + ']', resumo: '[Resumo em linguagem simples do trecho do plano]', pag: '[pág. X]' };
+      };
+      return { nome: n, tags: tags[i], A: [item(1), item(2), item(3)], B: [item(1), item(2), item(3)] };
+    });
+  }
+  renderVals() {
+    var self = this;
+    var d = this.dados();
+    var s = this.state;
+    var areas = d.map(function (a, i) {
+      var sel = i === s.area;
+      return { nome: a.nome, selected: sel, bg: sel ? '#17142B' : '#FFFFFF', fg: sel ? '#FFFFFF' : '#17142B', pick: function () { self.setState({ area: i }); } };
+    });
+    var atual = d[s.area];
+    var colA = { letra: 'A', cor: '#6B4EE6', itens: atual.A };
+    var colB = { letra: 'B', cor: '#0F7A7A', itens: atual.B };
+    var colunas = s.flip ? [colB, colA] : [colA, colB];
+
+    var q = s.query.trim().toLowerCase();
+    var resultados = q ? d.filter(function (a) { return (a.nome.toLowerCase() + ' ' + a.tags).indexOf(q) >= 0; }).map(function (a) {
+      return { area: a.nome, a: '[Trecho do plano A que menciona "' + s.query.trim() + '"]', b: '[Trecho do plano B que menciona "' + s.query.trim() + '"]' };
+    }) : [];
+    var buscaStatus = !q ? 'Digite algo ou toque numa sugestão.' : (resultados.length ? resultados.length + ' tema(s) encontrado(s) para "' + s.query.trim() + '".' : 'Nada encontrado para "' + s.query.trim() + '" nos dois planos.');
+    var sugestoes = ['SUS', 'escola', 'polícia', 'imposto', 'salário', 'moradia'].map(function (t) {
+      return { termo: t, pick: function () { self.setState({ query: t }); } };
+    });
+
+    var perguntas = [
+      { tema: 'Saúde', x: '[Proposta de um dos planos, sem identificação]', y: '[Proposta do outro plano, sem identificação]', xEhA: true },
+      { tema: 'Educação', x: '[Proposta de um dos planos, sem identificação]', y: '[Proposta do outro plano, sem identificação]', xEhA: false },
+      { tema: 'Segurança', x: '[Proposta de um dos planos, sem identificação]', y: '[Proposta do outro plano, sem identificação]', xEhA: true }
+    ];
+    var total = perguntas.length;
+    var ativo = s.step < total;
+    var p = ativo ? perguntas[s.step] : perguntas[0];
+    var responder = function (escolheuX) {
+      var votouA = escolheuX === p.xEhA;
+      self.setState({ step: s.step + 1, pontosA: s.pontosA + (votouA ? 1 : 0) });
+    };
+    var pontosB = total - s.pontosA;
+    var resultado = s.pontosA === pontosB ? 'Empate: você dividiu suas escolhas.' : (s.pontosA > pontosB ? 'Você escolheu mais propostas do Candidato A (' + s.pontosA + ' de ' + total + ')' : 'Você escolheu mais propostas do Candidato B (' + pontosB + ' de ' + total + ')');
+
+    return {
+      baseSize: s.big ? '20px' : '17px',
+      bigText: s.big ? 'true' : 'false',
+      sizeLabel: s.big ? 'A− Texto normal' : 'A+ Texto maior',
+      toggleSize: function () { self.setState({ big: !s.big }); },
+      areas: areas,
+      areaNome: atual.nome,
+      colunas: colunas,
+      query: s.query,
+      onQuery: function (e) { self.setState({ query: e.target.value }); },
+      sugestoes: sugestoes,
+      resultados: resultados,
+      buscaStatus: buscaStatus,
+      quizAtivo: ativo,
+      quizFim: !ativo,
+      quizProgresso: ativo ? (s.step + 1) + ' de ' + total : 'resultado',
+      pergunta: p,
+      escolherX: function () { responder(true); },
+      escolherY: function () { responder(false); },
+      quizResultado: resultado,
+      reiniciar: function () { self.setState({ step: 0, pontosA: 0 }); }
+    };
+  }
+}
+</script>
+</body>
+</html>

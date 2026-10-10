@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.env
+.env.*
+.DS_Store
+*.log
+# PDFs originais do TSE: baixe com o script, não versionamos
+fontes/
