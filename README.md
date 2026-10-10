@@ -21,7 +21,7 @@ Este repositório é público de propósito: qualquer pessoa pode conferir de on
 | `docs/` | Metodologia e critérios editoriais |
 | `prototipo/` | Protótipo visual aprovado (referência, não é código de produção) |
 | `src/`, `public/` | Site Astro |
-| `scripts/` | Validação dos dados antes do build |
+| `scripts/` | Validação, importação dos planos e conferência de trechos ([fluxo](docs/importacao.md)) |
 
 ## Stack
 
