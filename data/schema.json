@@ -221,6 +221,12 @@
           "type": "string",
           "format": "uri",
           "pattern": "^https://(divulgacandcontas|www)\\.tse\\.jus\\.br/[^@\\s]*$"
+        },
+        "etiquetas": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string" },
+          "description": "Público da medida (src/lib/areas.mjs, ETIQUETAS; o validador injeta o enum). Opcional; não substitui o tema."
         }
       }
     }

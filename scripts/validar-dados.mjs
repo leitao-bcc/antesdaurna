@@ -5,7 +5,7 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
-import { AREAS } from '../src/lib/areas.mjs';
+import { AREAS, ETIQUETAS } from '../src/lib/areas.mjs';
 import { seloDosTrechos } from './lib/selo.mjs';
 
 const estrito = process.argv.includes('--estrito') || process.env.CF_PAGES_BRANCH === 'main';
@@ -27,6 +27,7 @@ schema.properties.cobertura = {
   properties: Object.fromEntries(NOMES.map((n) => [n, { $ref: '#/$defs/cobertura' }])),
 };
 schema.$defs.proposta.properties.area = { enum: NOMES };
+schema.$defs.proposta.properties.etiquetas.items = { enum: ETIQUETAS };
 const ajv = new Ajv2020({ allErrors: true });
 addFormats(ajv);
 const estrutura = ajv.compile(schema);

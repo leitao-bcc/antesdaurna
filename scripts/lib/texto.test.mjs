@@ -54,15 +54,15 @@ test('sugerirPaginas: cobre todas as áreas e ordena por acertos', () => {
     { pagina: 1, texto: 'Apresentação geral' },
     { pagina: 2, texto: 'Saúde: SUS, hospital e vacina' },
     { pagina: 3, texto: 'O SUS' },
-    { pagina: 4, texto: 'Energia sustentável' },
+    { pagina: 4, texto: 'Energia elétrica e petróleo' },
   ]);
-  assert.deepEqual(s['Saúde'].map((x) => x.pagina), [2, 3]);
+  assert.deepEqual(s['Saúde e atendimento no SUS'].map((x) => x.pagina), [2, 3]);
   assert.deepEqual(s['Moradia'], []);
-  assert.deepEqual(s['Meio ambiente'].map((x) => x.pagina), [4]);
+  assert.deepEqual(s['Energia e combustíveis'].map((x) => x.pagina), [4]);
 });
 
 test('sugerirPaginas: lista vazia e limite por área', () => {
-  assert.deepEqual(sugerirPaginas([])['Saúde'], []);
+  assert.deepEqual(sugerirPaginas([])['Saúde e atendimento no SUS'], []);
   const muitas = Array.from({ length: 10 }, (_, i) => ({ pagina: i + 1, texto: 'saude' }));
-  assert.equal(sugerirPaginas(muitas, 3)['Saúde'].length, 3);
+  assert.equal(sugerirPaginas(muitas, 3)['Saúde e atendimento no SUS'].length, 3);
 });

@@ -80,6 +80,9 @@ a:hover { color: #2E1D8A; }
 .faixa { background: var(--branco); border-top: 1px solid var(--borda); border-bottom: 1px solid var(--borda); }
 .abas { display: none; flex-wrap: wrap; gap: 8px; }
 .js .abas { display: flex; }
+.js .abas[hidden] { display: none; }
+.abas-temas .aba { font-weight: 600; border-width: 1px; }
+.aba-bloco { border-color: var(--texto); }
 .aba { min-height: 44px; padding: 8px 18px; border-radius: 999px; border: 2px solid var(--texto); background: var(--branco); color: var(--texto); font: inherit; font-weight: 700; cursor: pointer; }
 .aba[aria-pressed='true'] { background: var(--texto); color: #fff; }
 .painel { display: flex; flex-direction: column; gap: 16px; }
