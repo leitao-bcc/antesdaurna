@@ -34,7 +34,7 @@ const linkPagina = (p: { link_pdf: string; pagina: number }) => (p.pagina > 0 ? 
                 <summary>Trecho original do plano</summary>
                 <blockquote>{p.trecho_original}</blockquote>
               </details>
-              <a class="link-plano" href={linkPagina(p)} rel="noopener">Ver no plano original{p.pagina > 0 ? `, pág. ${p.pagina}` : ''}</a>
+              <a class="link-plano" href={linkPagina(p)} rel="noopener">Ver no plano original{p.pagina > 0 ? `, pág. ${p.pagina} do PDF` : ''}</a>
             </article>
           ))}
         </div>

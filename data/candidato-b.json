@@ -39,6 +39,7 @@
   },
   "propostas": [
     {
+      "id": "saude-01",
       "area": "Saúde",
       "titulo": "[Exemplo: proposta 1 de Saúde]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -47,6 +48,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "saude-02",
       "area": "Saúde",
       "titulo": "[Exemplo: proposta 2 de Saúde]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -55,6 +57,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "educacao-01",
       "area": "Educação",
       "titulo": "[Exemplo: proposta 1 de Educação]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -63,6 +66,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "educacao-02",
       "area": "Educação",
       "titulo": "[Exemplo: proposta 2 de Educação]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -71,6 +75,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "seguranca-01",
       "area": "Segurança",
       "titulo": "[Exemplo: proposta 1 de Segurança]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -79,6 +84,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "seguranca-02",
       "area": "Segurança",
       "titulo": "[Exemplo: proposta 2 de Segurança]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -87,6 +93,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "economia-01",
       "area": "Economia",
       "titulo": "[Exemplo: proposta 1 de Economia]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -95,6 +102,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "economia-02",
       "area": "Economia",
       "titulo": "[Exemplo: proposta 2 de Economia]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -103,6 +111,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "emprego-e-renda-01",
       "area": "Emprego e renda",
       "titulo": "[Exemplo: proposta 1 de Emprego e renda]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -111,6 +120,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "emprego-e-renda-02",
       "area": "Emprego e renda",
       "titulo": "[Exemplo: proposta 2 de Emprego e renda]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -119,6 +129,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "meio-ambiente-01",
       "area": "Meio ambiente",
       "titulo": "[Exemplo: proposta 1 de Meio ambiente]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -127,6 +138,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "meio-ambiente-02",
       "area": "Meio ambiente",
       "titulo": "[Exemplo: proposta 2 de Meio ambiente]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -135,6 +147,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "moradia-01",
       "area": "Moradia",
       "titulo": "[Exemplo: proposta 1 de Moradia]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -143,6 +156,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "moradia-02",
       "area": "Moradia",
       "titulo": "[Exemplo: proposta 2 de Moradia]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -151,6 +165,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "cultura-e-esporte-01",
       "area": "Cultura e esporte",
       "titulo": "[Exemplo: proposta 1 de Cultura e esporte]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
@@ -159,6 +174,7 @@
       "link_pdf": "https://divulgacandcontas.tse.jus.br/"
     },
     {
+      "id": "cultura-e-esporte-02",
       "area": "Cultura e esporte",
       "titulo": "[Exemplo: proposta 2 de Cultura e esporte]",
       "resumo": "[Exemplo: resumo em linguagem simples, começando com 'propõe']",
