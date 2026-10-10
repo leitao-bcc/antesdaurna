@@ -1,0 +1,268 @@
+{
+  "id": "a",
+  "letra": "A",
+  "nome": "Flávio Bolsonaro",
+  "status": "rascunho",
+  "fonte": {
+    "url_tse": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+    "sha256_pdf": "7d1d95075e11e3c4113e8dcd502438049a34f5147a84cb0f746bf59046e477a4",
+    "baixado_em": "2026-10-10",
+    "paginas_total": 76,
+    "numero": "22",
+    "partido": "PL",
+    "trechos_conferidos_em": "2026-10-10",
+    "trechos_conferidos_sha256": "eaa460aa8b08671436833ed0fec0a691043f70374c8714937f113bead507fe17"
+  },
+  "cobertura": {
+    "Saúde": {
+      "consta": true,
+      "revisado": false
+    },
+    "Educação": {
+      "consta": true,
+      "revisado": false
+    },
+    "Segurança": {
+      "consta": true,
+      "revisado": false
+    },
+    "Economia": {
+      "consta": true,
+      "revisado": false
+    },
+    "Emprego e renda": {
+      "consta": true,
+      "revisado": false
+    },
+    "Meio ambiente": {
+      "consta": true,
+      "revisado": false
+    },
+    "Moradia": {
+      "consta": true,
+      "revisado": false
+    },
+    "Cultura e esporte": {
+      "consta": true,
+      "revisado": false
+    }
+  },
+  "propostas": [
+    {
+      "area": "Saúde",
+      "id": "saude-01",
+      "titulo": "Prontuário eletrônico único",
+      "resumo": "Propõe implantar um prontuário eletrônico único, ligado ao CPF e ao Gov.br, que funcione nas redes pública e privada e reúna consultas, exames, vacinas e prescrições, com consentimento do paciente e respeito à LGPD.",
+      "trecho_original": "Vamos implantar o prontuário eletrônico único, vinculado ao CPF e integrado ao Gov.br, interoperável entre as redes pública e privada, com histórico completo de consultas, exames, vacinas e prescrições, sempre observados o consentimento do paciente, a LGPD, o sigilo médico e os protocolos de segurança",
+      "pagina": 26,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Saúde",
+      "id": "saude-02",
+      "titulo": "Saúde da Família e atendimento aos idosos",
+      "resumo": "Propõe ampliar a Estratégia Saúde da Família e criar o Programa de Atendimento aos Idosos, com atendimento facilitado e adequado a quem envelhece.",
+      "trecho_original": "Vamos ampliar a Estratégia Saúde da Família, levando o cuidado para perto de casa, e criar o Programa de Atendimento aos Idosos, com atendimento facilitado e adequado a quem envelhece",
+      "pagina": 37,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Saúde",
+      "id": "saude-03",
+      "titulo": "Exames na rede privada em horários ociosos",
+      "resumo": "Propõe contratar serviços e exames na rede privada nos horários ociosos, para usar a capacidade já existente.",
+      "trecho_original": "Para usar bem o que já existe, vamos contratar serviços e exames na rede privada nos horários ociosos",
+      "pagina": 37,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Educação",
+      "id": "educacao-01",
+      "titulo": "Programa Acolher de reforço escolar",
+      "resumo": "Propõe criar o Programa Acolher, em que um aluno com bom desempenho é remunerado para dar reforço aos colegas que precisam, de forma remota ou presencial.",
+      "trecho_original": "vamos criar o Programa Acolher: um aluno com bom desempenho é remunerado para dar reforço aos colegas que precisam, de forma remota ou presencial.",
+      "pagina": 35,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Educação",
+      "id": "educacao-02",
+      "titulo": "Empréstimo Contingente à Renda",
+      "resumo": "Propõe adotar o Empréstimo Contingente à Renda no financiamento estudantil: o estudante só começa a pagar quando estiver empregado, com parcela proporcional ao que recebe e prazo mais longo.",
+      "trecho_original": "vamos adotar o Empréstimo Contingente à Renda: o estudante só começa a pagar quando estiver empregado e ganhando, o valor da parcela é proporcional ao que ele recebe e o prazo é bem mais longo.",
+      "pagina": 37,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Educação",
+      "id": "educacao-03",
+      "titulo": "Voucher educacional onde faltar vaga",
+      "resumo": "Propõe que, onde faltar vaga na rede pública, a família receba um voucher educacional para matricular o filho em outra escola.",
+      "trecho_original": "E onde faltar vaga na rede pública, a família receberá um voucher educacional para matricular o filho em outra escola",
+      "pagina": 36,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Segurança",
+      "id": "seguranca-01",
+      "titulo": "Presídios de segurança máxima e novas vagas",
+      "resumo": "Propõe construir 5 novos presídios de segurança máxima, no modelo adotado por El Salvador, que com os 5 federais formarão o Complexo Federal de Segurança Máxima, e criar meio milhão de vagas prisionais em 4 anos, com os estados, para zerar o déficit carcerário.",
+      "trecho_original": "O Brasil terá 5 novos presídios de segurança máxima no modelo adotado por El Salvador. Junto com os atuais 5 presídios federais, eles formarão o Complexo Federal de Segurança Máxima. [...] Em parceria com os governos estaduais, vamos criar meio milhão de novas vagas no sistema prisional em 4 anos e zerar o déficit carcerário.",
+      "pagina": 14,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Segurança",
+      "id": "seguranca-02",
+      "titulo": "Muralha Brasileira de reconhecimento facial",
+      "resumo": "Propõe implantar o Muralha Brasileira, sistema nacional de reconhecimento facial integrado a bancos de dados criminais, com mais de 1 milhão de novas câmeras para vigiar portos, aeroportos e áreas públicas.",
+      "trecho_original": "Vamos implantar o Muralha Brasileira - um sistema nacional de reconhecimento facial integrado a bancos de dados criminais, [...] vamos vigiar portos, aeroportos e áreas públicas com mais de 1 milhão de novas câmeras espalhadas por todo o país.",
+      "pagina": 15,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Segurança",
+      "id": "seguranca-03",
+      "titulo": "Redução da maioridade penal",
+      "resumo": "Propõe apoiar e sancionar a redução da maioridade penal de 18 para 16 anos e punir também maiores de 14 anos que cometam crimes graves, como estupro, tráfico, tortura e assassinato.",
+      "trecho_original": "O novo governo do Brasil vai apoiar e sancionar a redução da maioridade penal de 18 para 16 anos. Vamos punir também maiores de 14 anos que cometerem crimes graves, como estupro, tráfico, tortura e assassinato.",
+      "pagina": 13,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Economia",
+      "id": "economia-01",
+      "titulo": "R$ 900 bilhões em infraestrutura",
+      "resumo": "Propõe investir R$ 900 bilhões em quatro anos em rodovias, hidrovias, portos, aeroportos e ferrovias e criar os Corredores Logísticos Inteligentes, com foco em reduzir o custo da logística.",
+      "trecho_original": "Vamos investir R$ 900 bilhões em quatro anos em rodovias, hidrovias, portos, aeroportos e ferrovias. Criaremos os Corredores Logísticos Inteligentes de integração nacional, com foco em reduzir o custo da logística",
+      "pagina": 51,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Economia",
+      "id": "economia-02",
+      "titulo": "Corte de ministérios e despesas",
+      "resumo": "Propõe cortar no mínimo 10 ministérios, reduzir cargos comissionados e despesas administrativas e combater penduricalhos e supersalários.",
+      "trecho_original": "Isso inclui o corte de no mínimo 10 ministérios, a redução de cargos comissionados e de despesas administrativas e o combate aos penduricalhos e supersalários",
+      "pagina": 69,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Economia",
+      "id": "economia-03",
+      "titulo": "Revisão da reforma tributária e redução do IVA",
+      "resumo": "Propõe revisar e redimensionar a reforma tributária em curso para reduzir a carga sobre produção e consumo, corrigir distorções, reduzir o IVA e assegurar a não cumulatividade.",
+      "trecho_original": "Vamos promover a revisão e o redimensionamento da reforma tributária em curso [...] com o objetivo de reduzir efetivamente a carga sobre a produção e o consumo. Vamos corrigir suas distorções, reduzir o IVA [...] e assegurar a não cumulatividade, para que não se cobre imposto sobre imposto.",
+      "pagina": 30,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Emprego e renda",
+      "id": "emprego-e-renda-01",
+      "titulo": "Contratos para primeiro emprego e para 50 anos ou mais",
+      "resumo": "Propõe criar um contrato de trabalho para jovens de 18 a 24 anos em busca do primeiro emprego, com menor custo na folha, e um contrato mais atrativo para pessoas com 50 anos ou mais desempregadas há ao menos 12 meses.",
+      "trecho_original": "trabalho para os 18 a 24 anos em busca do primeiro emprego, com menor custo na folha, para que a empresa tenha estímulo a dar a primeira oportunidade [...] vamos criar um contrato mais atrativo para a contratação de pessoas com 50 anos ou mais desempregadas há pelo menos 12 meses",
+      "pagina": 44,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Emprego e renda",
+      "id": "emprego-e-renda-02",
+      "titulo": "Minha Primeira Empresa",
+      "resumo": "Propõe criar o Minha Primeira Empresa, com menos burocracia para abrir e formalizar o negócio, capacitação e orientação pelo Sistema S e uma esteira de crédito e serviços da CAIXA.",
+      "trecho_original": "Para quem está começando, vamos criar o Minha Primeira Empresa: menos burocracia para abrir e formalizar o negócio, capacitação e orientação pelo Sistema S, para que o empreendedor aprenda a gerir o que criou, e uma esteira de crédito e serviços da CAIXA",
+      "pagina": 45,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Emprego e renda",
+      "id": "emprego-e-renda-03",
+      "titulo": "Banco nacional de vagas",
+      "resumo": "Propõe modernizar a intermediação de mão de obra com um banco nacional de vagas conectado ao RH das empresas.",
+      "trecho_original": "vamos modernizar a intermediação de mão de obra, com um banco nacional de vagas conectado ao RH das empresas, para aproximar de forma rápida e direta quem procura trabalho de quem procura trabalhador",
+      "pagina": 44,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Meio ambiente",
+      "id": "meio-ambiente-01",
+      "titulo": "Meta de zerar o desmatamento ilegal até 2029",
+      "resumo": "Propõe a meta de zerar o desmatamento ilegal até 2029 e fortalecer a prevenção, o monitoramento e a fiscalização de queimadas e crimes ambientais, sem criar novas obrigações ou custos desnecessários para o produtor rural que atua dentro da lei.",
+      "trecho_original": "Teremos a meta de zerar o desmatamento ilegal até 2029 [...] e combateremos as queimadas ilegais, fortalecendo a prevenção, o monitoramento, a fiscalização e o combate aos crimes ambientais [...] sem criar novas obrigações ou custos desnecessários para o produtor rural que atua dentro da lei.",
+      "pagina": 58,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Meio ambiente",
+      "id": "meio-ambiente-02",
+      "titulo": "Pagamento por serviços ambientais",
+      "resumo": "Propõe criar mecanismos de incentivo econômico à preservação, ampliando o pagamento por serviços ambientais para remunerar quem conserva a vegetação nativa, recupera áreas degradadas e protege recursos hídricos.",
+      "trecho_original": "Vamos criar mecanismos de incentivo econômico à preservação, ampliando o pagamento por serviços ambientais e desenvolvendo instrumentos capazes de remunerar produtores, comunidades e proprietários rurais que conservam a vegetação nativa, recuperam áreas degradadas e protegem os recursos hídricos.",
+      "pagina": 57,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Meio ambiente",
+      "id": "meio-ambiente-03",
+      "titulo": "Mercado de carbono e bioeconomia",
+      "resumo": "Propõe consolidar o mercado regulado de carbono com segurança jurídica e impulsionar a bioeconomia, com biotecnologia, fármacos, cosméticos e novos materiais a partir da biodiversidade.",
+      "trecho_original": "E vamos consolidar o mercado regulado de carbono com segurança jurídica, posicionando o Brasil como fornecedor global de ativos ambientais, e impulsionar a bioeconomia, com biotecnologia, fármacos, cosméticos e novos materiais a partir da biodiversidade.",
+      "pagina": 57,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Moradia",
+      "id": "moradia-01",
+      "titulo": "Retomada do Casa Verde e Amarela",
+      "resumo": "Propõe retomar o Casa Verde e Amarela, com meta de 2,5 milhões de residências e a menor taxa de juros possível no financiamento.",
+      "trecho_original": "Vamos retomar o Casa Verde e Amarela, com meta de 2,5 milhões de residências e a menor taxa de juros possível no financiamento.",
+      "pagina": 47,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Moradia",
+      "id": "moradia-02",
+      "titulo": "Saneamento: água tratada e esgoto",
+      "resumo": "Propõe garantir a plena aplicação do Marco Legal do Saneamento e acelerar concessões e parcerias para universalizar o acesso à água tratada e ao esgoto, com atenção especial ao saneamento rural.",
+      "trecho_original": "foi o Marco Legal do Saneamento [...] nós vamos garantir sua plena aplicação e acelerar as concessões e parcerias para universalizar o acesso à água tratada e ao esgoto, com atenção especial ao saneamento rural.",
+      "pagina": 47,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Moradia",
+      "id": "moradia-03",
+      "titulo": "Urbanização de áreas degradadas e regularização fundiária",
+      "resumo": "Propõe promover a urbanização de áreas degradadas, evitando o risco de deslizamentos em encostas, e incentivar a regularização fundiária das áreas urbanas já consolidadas, com parcerias público-privadas que integrem moradia e infraestrutura.",
+      "trecho_original": "Vamos promover a urbanização de áreas degradadas, evitando o risco de deslizamentos em encostas, e incentivar a regularização fundiária, priorizando as áreas urbanas já consolidadas e reduzindo os vazios urbanos, com parcerias público-privadas que integrem moradia e infraestrutura no mesmo contrato.",
+      "pagina": 47,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Cultura e esporte",
+      "id": "cultura-e-esporte-01",
+      "titulo": "Programa Escola de Campeões",
+      "resumo": "Propõe criar o Programa Escola de Campeões, com parcerias público-privadas, para levar o esporte competitivo às escolas, com times escolares, treinos no contraturno e competições municipais e estaduais.",
+      "trecho_original": "Vamos criar o Programa Escola de Campeões, com parcerias público-privadas para levar o esporte competitivo às escolas, muito além da aula de educação física: times escolares, treinos no contraturno e competições municipais e estaduais.",
+      "pagina": 40,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Cultura e esporte",
+      "id": "cultura-e-esporte-02",
+      "titulo": "Bolsas esportivas, patrocínio e editais",
+      "resumo": "Propõe aperfeiçoar as bolsas esportivas, atrair a iniciativa privada para o patrocínio do alto rendimento e incentivar tecnologia e ciência de dados por meio de editais para confederações e clubes.",
+      "trecho_original": "No alto rendimento, vamos aperfeiçoar as bolsas esportivas e, sobretudo, trazer a iniciativa privada para o patrocínio, em parceria com clubes, faculdades e universidades. Vamos incentivar o uso de tecnologia e ciência de dados por meio de editais para confederações e clubes",
+      "pagina": 40,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    },
+    {
+      "area": "Cultura e esporte",
+      "id": "cultura-e-esporte-03",
+      "titulo": "Aperfeiçoamento das leis de incentivo à cultura",
+      "resumo": "Propõe aperfeiçoar as leis de incentivo à cultura, corrigindo distorções e favorecendo o desenvolvimento de outros polos regionais.",
+      "trecho_original": "Na Cultura, valorizaremos as tradições brasileiras e aperfeiçoaremos as leis de incentivo, corrigindo distorções e favorecendo o desenvolvimento de outros polos regionais.",
+      "pagina": 41,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+    }
+  ]
+}

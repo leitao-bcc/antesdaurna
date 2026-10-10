@@ -125,7 +125,7 @@
         "url_tse": {
           "type": "string",
           "format": "uri",
-          "pattern": "^https://divulgacandcontas\\.tse\\.jus\\.br/[^@\\s]*$",
+          "pattern": "^https://(divulgacandcontas|www)\\.tse\\.jus\\.br/[^@\\s]*$",
           "description": "Página da candidatura no DivulgaCandContas."
         },
         "sha256_pdf": {
@@ -160,7 +160,7 @@
         "url_pdf": {
           "type": "string",
           "format": "uri",
-          "pattern": "^https://divulgacandcontas\\.tse\\.jus\\.br/[^@\\s]*$",
+          "pattern": "^https://(divulgacandcontas|www)\\.tse\\.jus\\.br/[^@\\s]*$",
           "description": "Endereço direto do PDF do plano, se houver. Se existir, link_pdf das propostas deve ser igual."
         },
         "ocr": {
@@ -220,7 +220,7 @@
         "link_pdf": {
           "type": "string",
           "format": "uri",
-          "pattern": "^https://divulgacandcontas\\.tse\\.jus\\.br/[^@\\s]*$"
+          "pattern": "^https://(divulgacandcontas|www)\\.tse\\.jus\\.br/[^@\\s]*$"
         }
       }
     }

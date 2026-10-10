@@ -117,8 +117,10 @@ if (existsSync(dirRascunho)) {
   for (const arq of readdirSync(dirRascunho).filter((f) => f.endsWith('.json'))) {
     const m = arq.match(/^candidato-([ab])\.json$/);
     if (!m) { erros.push(`rascunho/${arq}: nome deve ser candidato-a.json ou candidato-b.json`); continue; }
-    if (existsSync(new URL(`candidato-${m[1]}.json`, raiz))) {
-      erros.push(`rascunho/${arq}: já existe data/candidato-${m[1]}.json; depois de promover, apague o rascunho (git mv)`);
+    // Convivem enquanto o publicado é só de exemplo; depois da promoção o rascunho deve sumir.
+    const publicado = publicados.find((c) => c.id === m[1]);
+    if (publicado && publicado.status !== 'exemplo') {
+      erros.push(`rascunho/${arq}: já existe data/candidato-${m[1]}.json publicado; depois de promover, apague o rascunho (git mv)`);
     }
     const d = ler(`rascunho/${arq}`, `rascunho/${arq}`);
     if (d) conferir(d, `rascunho/${arq}`, m[1], m[1].toUpperCase(), { publicado: false });

@@ -1,0 +1,268 @@
+{
+  "id": "b",
+  "letra": "B",
+  "nome": "Lula",
+  "status": "rascunho",
+  "fonte": {
+    "url_tse": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+    "sha256_pdf": "e1c162c20c81dafadf69b10bab230b5a6dc48f6b6c27c2cfce853b131a8bcc36",
+    "baixado_em": "2026-10-10",
+    "paginas_total": 84,
+    "numero": "13",
+    "partido": "PT",
+    "trechos_conferidos_em": "2026-10-10",
+    "trechos_conferidos_sha256": "ebcf3dcc579ff85a07f5bca6690bfda3908c483025871c198a1c04621d978f6f"
+  },
+  "cobertura": {
+    "Saúde": {
+      "consta": true,
+      "revisado": false
+    },
+    "Educação": {
+      "consta": true,
+      "revisado": false
+    },
+    "Segurança": {
+      "consta": true,
+      "revisado": false
+    },
+    "Economia": {
+      "consta": true,
+      "revisado": false
+    },
+    "Emprego e renda": {
+      "consta": true,
+      "revisado": false
+    },
+    "Meio ambiente": {
+      "consta": true,
+      "revisado": false
+    },
+    "Moradia": {
+      "consta": true,
+      "revisado": false
+    },
+    "Cultura e esporte": {
+      "consta": true,
+      "revisado": false
+    }
+  },
+  "propostas": [
+    {
+      "id": "saude-01",
+      "area": "Saúde",
+      "titulo": "Farmácia Popular gratuito e com exames laboratoriais",
+      "resumo": "Propõe manter o Farmácia Popular 100% gratuito e incluir no programa exames laboratoriais de diagnóstico e de monitoramento de condições crônicas, como hipertensão e diabetes.",
+      "trecho_original": "O programa será mantido, 100% gratuito, assegurando contínua revisão dos medicamentos ofertados e a continuidade da distribuição de fraldas geriátricas. [...] Uma inovação do programa será incluir exames laboratoriais, de diagnóstico e de monitoramento de condições crônicas de saúde, que afetam parcela significativa da população, tais como hipertensão arterial e diabetes.",
+      "pagina": 36,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "saude-02",
+      "area": "Saúde",
+      "titulo": "Terceiro turno, Carretas da Saúde e mutirões",
+      "resumo": "Propõe expandir o terceiro turno nos serviços de saúde e reforçar as Carretas da Saúde e os mutirões de atendimento, para ampliar a oferta de consultas, exames e cirurgias.",
+      "trecho_original": "A expansão do terceiro turno nos serviços de saúde, o reforço das Carretas da Saúde e dos mutirões de atendimento seguirão como estratégias centrais para ampliar a oferta de consultas, exames e cirurgias em todo o país.",
+      "pagina": 37,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "saude-03",
+      "area": "Saúde",
+      "titulo": "Fila única digital ordenada por risco clínico",
+      "resumo": "Propõe aprimorar a regulação do acesso à atenção especializada, com fila única digital ordenada pelo risco clínico, uso de inteligência artificial e transporte sanitário em todas as regiões de saúde.",
+      "trecho_original": "Aprimoraremos ainda mais a regulação do acesso à atenção especializada, garantindo maior transparência das filas e utilizando inteligência artificial, com fila única digital e ordenada pelo risco clínico, com transporte sanitário em todas as regiões de saúde.",
+      "pagina": 38,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "educacao-01",
+      "area": "Educação",
+      "titulo": "Meta de 80% de crianças alfabetizadas na idade certa",
+      "resumo": "Propõe seguir com as ações pactuadas com estados e municípios para chegar à meta de 80% das crianças alfabetizadas na idade certa.",
+      "trecho_original": "Seguiremos com as ações e políticas já pactuadas com os estados e municípios brasileiros para chegarmos à meta de 80% das nossas crianças alfabetizadas na idade certa.",
+      "pagina": 31,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "educacao-02",
+      "area": "Educação",
+      "titulo": "Universalização da internet nas escolas",
+      "resumo": "Propõe universalizar, no próximo mandato, a internet de qualidade nas escolas brasileiras.",
+      "trecho_original": "levando internet de qualidade às escolas brasileiras [...] Vamos universalizar este serviço no próximo mandato, garantindo acesso a essa dimensão cada vez mais central para a qualidade da educação.",
+      "pagina": 32,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "educacao-03",
+      "area": "Educação",
+      "titulo": "Continuidade e fortalecimento do Pé-de-Meia",
+      "resumo": "Propõe dar continuidade e fortalecer o Pé-de-Meia.",
+      "trecho_original": "Vamos dar continuidade e fortalecer o Pé-de-Meia. Nenhum jovem em situação de pobreza ou vulnerabilidade social no Brasil deve deixar a escola por falta de renda.",
+      "pagina": 32,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "seguranca-01",
+      "area": "Segurança",
+      "titulo": "Programa Brasil Contra o Crime Organizado",
+      "resumo": "Propõe fortalecer, com estados e municípios, o Programa Brasil Contra o Crime Organizado: tráfico de armas e munições, asfixia financeira do crime organizado e das milícias, investigação de homicídios e retomada de territórios.",
+      "trecho_original": "Fortaleceremos o Programa Brasil Contra o Crime Organizado, lançado em maio de 2026. Em cooperação com estados e municípios, vamos avançar no enfrentamento ao tráfico de armas, munições, acessórios e explosivos; asfixia financeira do crime organizado e das milícias; qualificação da investigação de homicídios; retomada de territórios; e fortalecimento da segurança no sistema prisional.",
+      "pagina": 27,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "seguranca-02",
+      "area": "Segurança",
+      "titulo": "Controle de armas e munições",
+      "resumo": "Propõe manter a política de controle de armas e munições, aprimorar a rastreabilidade e reforçar a fiscalização da Polícia Federal e do Exército sobre empresas de segurança privada, defesa pessoal e registros de caçadores, atiradores e colecionadores.",
+      "trecho_original": "manteremos uma política de controle de armas e munições, fundamental para reduzir a violência e fortalecer uma política democrática de segurança pública. Aprimoraremos os mecanismos de rastreabilidade de armas e munições e reforçaremos a capacidade de fiscalização da Polícia Federal e do Exército sobre empresas de segurança privada, defesa pessoal e registros de caçadores, atiradores e colecionadores.",
+      "pagina": 28,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "seguranca-03",
+      "area": "Segurança",
+      "titulo": "Criação do Ministério da Segurança Pública",
+      "resumo": "Propõe criar o Ministério da Segurança Pública, uma vez aprovada a PEC da Segurança Pública, para coordenar com estados e municípios a execução das políticas nacionais no âmbito do SUSP.",
+      "trecho_original": "Uma vez aprovada a PEC da Segurança Pública proposta pelo Executivo, criaremos o Ministério da Segurança Pública para coordenar, em articulação com estados e municípios, a execução das políticas nacionais de segurança pública no âmbito do Sistema Único de Segurança Pública (SUSP).",
+      "pagina": 30,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "economia-01",
+      "area": "Economia",
+      "titulo": "Redução dos juros e manutenção do arcabouço fiscal",
+      "resumo": "Propõe criar condições para reduzir de forma sustentada as taxas de juros, com inflação controlada e política fiscal, e manter o novo arcabouço fiscal.",
+      "trecho_original": "vamos criar as condições para uma redução sustentada das taxas de juros, com inflação controlada e assegurando uma política fiscal responsável. Para isso, manteremos o novo arcabouço fiscal",
+      "pagina": 49,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "economia-02",
+      "area": "Economia",
+      "titulo": "Política para minerais críticos e terras raras",
+      "resumo": "Propõe desenvolver uma política específica para minerais críticos e terras raras, para organizar suas cadeias produtivas e evitar a simples exportação de matérias-primas estratégicas.",
+      "trecho_original": "Desenvolveremos uma política específica para minerais críticos e terras raras, capaz de organizar suas cadeias produtivas, diferenciar seus usos tecnológicos e evitar a simples exportação de matérias-primas estratégicas.",
+      "pagina": 52,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "economia-03",
+      "area": "Economia",
+      "titulo": "Concessões rodoviárias e ferroviárias na nova edição do PAC",
+      "resumo": "Propõe, na nova edição do Novo PAC, manter o ritmo das concessões rodoviárias e intensificar as de ferrovias, com leilão de novos projetos e repactuação dos contratos existentes.",
+      "trecho_original": "A nova edição do Novo PAC manterá a articulação dos investimentos públicos e privados em infraestrutura logística, dando sequência a obras públicas e concessões. Manteremos o ritmo nas concessões rodoviárias e intensificaremos as de ferrovias em duas frentes: leilão de novos projetos e repactuação dos contratos existentes.",
+      "pagina": 53,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "emprego-e-renda-01",
+      "area": "Emprego e renda",
+      "titulo": "Fim da escala 6x1 e jornada de 40 horas",
+      "resumo": "Propõe atuar junto ao Senado para assegurar o fim da escala 6x1 e a redução da jornada para 40 horas, sem redução salarial, nos termos aprovados na Câmara dos Deputados.",
+      "trecho_original": "Manteremos nossa ação junto ao Senado Federal para assegurar o fim da escala 6x1 e a redução da jornada de trabalho para 40 horas, sem redução salarial, nos termos aprovados na Câmara dos Deputados.",
+      "pagina": 75,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "emprego-e-renda-02",
+      "area": "Emprego e renda",
+      "titulo": "Continuidade da valorização do salário mínimo",
+      "resumo": "Propõe dar continuidade à política de valorização do salário mínimo.",
+      "trecho_original": "dará continuidade à política de valorização do salário mínimo como meio estratégico de distribuição de renda, combate à pobreza e promoção do desenvolvimento econômico e social.",
+      "pagina": 74,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "emprego-e-renda-03",
+      "area": "Emprego e renda",
+      "titulo": "Plataforma Pública Nacional de Empregabilidade com IA",
+      "resumo": "Propõe expandir, na rede SINE, a Plataforma Pública Nacional de Empregabilidade com IA, para integrar vagas, cursos, certificações e serviços de orientação profissional.",
+      "trecho_original": "Vamos expandir, na rede SINE, a Plataforma Pública Nacional de Empregabilidade com IA, para integrar vagas, cursos, certificações e serviços de orientação profissional.",
+      "pagina": 74,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "meio-ambiente-01",
+      "area": "Meio ambiente",
+      "titulo": "Desmatamento líquido zero até 2030",
+      "resumo": "Propõe alcançar o desmatamento líquido zero até 2030, com atuação integrada do governo nos planos de controle e prevenção do desmatamento e no Plano Nacional de Manejo Integrado do Fogo.",
+      "trecho_original": "No próximo mandato, continuaremos trabalhando para alcançar o desmatamento líquido zero até 2030, meta que reafirmamos. Para isto, todas as instâncias do governo persistirão atuando de forma integrada na implementação dos planos de controle e prevenção do desmatamento e na implementação plena do Plano Nacional de Manejo Integrado do Fogo.",
+      "pagina": 70,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "meio-ambiente-02",
+      "area": "Meio ambiente",
+      "titulo": "Fiscalização, rastreabilidade e monitoramento por satélite",
+      "resumo": "Propõe fortalecer a fiscalização, buscar dialogar com o setor produtivo sobre rastreabilidade e devida diligência nas cadeias produtivas e expandir o monitoramento por satélite e a inteligência artificial contra crimes ambientais.",
+      "trecho_original": "Seguiremos fortalecendo e aprimorando as ações de fiscalização. Buscaremos dialogar com o setor produtivo nacional para estabelecer mecanismos de rastreabilidade e devida diligência nas cadeias produtivas. Vamos expandir monitoramento satelital e uso de inteligência artificial no combate a crimes ambientais.",
+      "pagina": 72,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "meio-ambiente-03",
+      "area": "Meio ambiente",
+      "titulo": "Fundo Clima e Eco Invest para financiamento climático",
+      "resumo": "Propõe ampliar os instrumentos de financiamento climático, mantendo o Fundo Clima e o Eco Invest para financiar a descarbonização da economia.",
+      "trecho_original": "Seguiremos ampliando os instrumentos necessários para o financiamento climático. O Fundo Clima e o Eco Invest continuarão a ser instrumentos fundamentais para o financiar a descarbonização da economia.",
+      "pagina": 71,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "moradia-01",
+      "area": "Moradia",
+      "titulo": "Minha Casa Minha Vida ampliado e Compra Assistida",
+      "resumo": "Propõe manter e ampliar o Minha Casa Minha Vida para todas as faixas de renda, com foco nas famílias de mais baixa renda, e criar novos instrumentos, como o Compra Assistida.",
+      "trecho_original": "O MCMV será mantido e ampliado no próximo mandato, para todas as faixas de renda e preservando seu foco nas famílias de mais baixa renda. Serão mobilizados novos instrumentos para ampliar o acesso à moradia, como o Compra Assistida, que, em situações excepcionais, permite a aquisição de imóveis já prontos.",
+      "pagina": 45,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "moradia-02",
+      "area": "Moradia",
+      "titulo": "Recursos para obras nas periferias e novas seleções",
+      "resumo": "Propõe assegurar recursos para concluir todas as obras de projetos que envolvem infraestrutura, moradia digna, equipamentos e serviços públicos nas periferias, e fazer novas rodadas de seleção para apoiar mais projetos.",
+      "trecho_original": "propostas, que envolvem provimento de infraestrutura, moradia digna, equipamentos e serviços públicos. No próximo mandato, todas estas obras terão recursos assegurados para sua conclusão, para garantir melhores condições de vida às periferias por elas atendidas. Faremos novas rodadas de seleção, visando apoiar mais projetos",
+      "pagina": 46,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "moradia-03",
+      "area": "Moradia",
+      "titulo": "Universalização de água tratada e esgotamento sanitário",
+      "resumo": "Propõe apoiar estados e municípios a universalizar o acesso à água tratada e ao esgotamento sanitário.",
+      "trecho_original": "Continuaremos, no próximo mandato, a perseguir o objetivo de apoiar estados e municípios a universalizar acesso à água tratada e ao esgotamento sanitário",
+      "pagina": 46,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "cultura-e-esporte-01",
+      "area": "Cultura e esporte",
+      "titulo": "Iniciativas culturais comunitárias e infraestrutura nas periferias",
+      "resumo": "Propõe fortalecer as iniciativas culturais comunitárias e ampliar o fomento à infraestrutura cultural em territórios periféricos.",
+      "trecho_original": "Vamos fortalecer ainda mais as iniciativas culturais comunitárias e ampliar o fomento ao desenvolvimento da infraestrutura cultural em territórios periféricos",
+      "pagina": 41,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "cultura-e-esporte-02",
+      "area": "Cultura e esporte",
+      "titulo": "Regulamentação do streaming (VOD)",
+      "resumo": "Propõe continuar trabalhando pela aprovação no Congresso de uma regulamentação do streaming (VOD) que atenda ao interesse nacional e assegure o País como produtor e exportador ativo de obras audiovisuais.",
+      "trecho_original": "vamos continuar trabalhando pela aprovação, no Congresso Nacional, de uma regulamentação do streaming (VOD) que atenda ao interesse nacional e assegure o País como um produtor e exportador ativo de obras audiovisuais.",
+      "pagina": 42,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    },
+    {
+      "id": "cultura-e-esporte-03",
+      "area": "Cultura e esporte",
+      "titulo": "Copa do Mundo de Futebol Feminino",
+      "resumo": "Propõe realizar, no próximo mandato, a Copa do Mundo de Futebol Feminino, em 8 capitais brasileiras.",
+      "trecho_original": "No próximo mandato, realizaremos a Copa do Mundo de Futebol Feminino, que ocorrerá pela primeira vez na América do Sul. Continuaremos trabalhando para o sucesso do evento, que ocorrerá em 8 capitais brasileiras",
+      "pagina": 43,
+      "link_pdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+    }
+  ]
+}
