@@ -78,17 +78,41 @@ a:hover { color: #2E1D8A; }
 
 /* Comparador */
 .faixa { background: var(--branco); border-top: 1px solid var(--borda); border-bottom: 1px solid var(--borda); }
-.abas { display: none; flex-wrap: wrap; gap: 8px; }
-.js .abas { display: flex; }
-.js .abas[hidden] { display: none; }
-.abas-temas .aba { font-weight: 600; border-width: 1px; }
-.aba-bloco { border-color: var(--texto); }
-.aba { min-height: 44px; padding: 8px 18px; border-radius: 999px; border: 2px solid var(--texto); background: var(--branco); color: var(--texto); font: inherit; font-weight: 700; cursor: pointer; }
-.aba[aria-pressed='true'] { background: var(--texto); color: #fff; }
-.painel { display: flex; flex-direction: column; gap: 16px; }
-.js .painel { display: none; }
-.js .painel.ativo { display: flex; }
-.painel-titulo { font-weight: 800; font-size: 1.5rem; }
+.so-leitor { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.saltos { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; }
+.saltos-rotulo { font-weight: 700; color: var(--texto-suave); font-size: .92rem; }
+.saltos ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.saltos a { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--texto); color: var(--texto); font-family: var(--fonte-titulo); font-weight: 800; text-decoration: none; background: var(--branco); }
+.saltos a:hover { background: var(--texto); color: #fff; }
+@media (min-width: 700px) { .saltos { display: none; } }
+.blocos { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 20px; align-items: start; }
+.bloco { background: var(--fundo); border: 1px solid #C9C2E6; border-radius: 20px; padding: 18px 18px 8px; display: flex; flex-direction: column; gap: 6px; }
+.bloco-topo { display: flex; align-items: center; gap: 12px; padding-bottom: 10px; border-bottom: 2px solid var(--texto); }
+.bloco-numero { flex: none; width: 36px; height: 36px; border-radius: 50%; background: var(--texto); color: #fff; display: grid; place-items: center; font-family: var(--fonte-titulo); font-weight: 800; }
+.bloco-titulo { font-size: 1.2rem; font-weight: 800; line-height: 1.15; }
+.bloco-conta { margin: 0; color: var(--texto-suave); font-size: .9rem; }
+.bloco-lista { list-style: none; margin: 0; padding: 0; }
+.bloco-lista li + li { border-top: 1px solid var(--borda); }
+.tema-link { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; padding: 8px 4px; color: var(--texto); text-decoration: none; font-weight: 700; border-radius: 10px; }
+.tema-link:hover { color: var(--link); background: rgba(75,50,195,.07); }
+.tema-seta { color: var(--link); font-size: 1.4rem; line-height: 1; }
+
+/* Página de tema */
+.trilha ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 0; font-size: .92rem; color: var(--texto-suave); }
+.trilha li + li::before { content: '›'; margin: 0 8px; color: #6B6590; }
+.trilha a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; }
+.trilha [aria-current] { font-weight: 700; color: var(--texto); }
+.irmaos { border-top: 1px solid var(--borda); padding-top: 18px; }
+.irmaos-titulo { font-size: 1.1rem; font-weight: 800; margin-bottom: 8px; }
+.irmaos ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.irmao { display: inline-flex; align-items: center; min-height: 44px; padding: 6px 16px; border-radius: 999px; border: 1px solid #7E75B8; background: var(--branco); color: #2E1D8A; font-weight: 700; text-decoration: none; }
+.irmao-atual { background: var(--texto); border-color: var(--texto); color: #fff; }
+a.irmao:hover { background: #EFEBFD; }
+.passos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.passo { display: flex; flex-direction: column; gap: 2px; min-height: 44px; padding: 14px 18px; border: 2px solid var(--texto); border-radius: 16px; color: var(--texto); text-decoration: none; font-weight: 700; background: var(--branco); }
+.passo:hover { background: #EFEBFD; color: var(--texto); }
+.passo small { color: var(--texto-suave); font-weight: 700; }
+.passo-prox { text-align: right; }
 .colunas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
 .col { border-radius: 22px; border: 2px solid var(--c); overflow: hidden; display: flex; flex-direction: column; background: var(--branco); }
 .col-a { --c: var(--cor-a); }

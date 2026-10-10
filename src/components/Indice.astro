@@ -1,0 +1,36 @@
+---
+import { BLOCOS_COM_TEMAS } from '../lib/blocos.mjs';
+const total = BLOCOS_COM_TEMAS.reduce((n, b) => n + b.temas.length, 0);
+---
+<section id="temas" class="faixa" aria-labelledby="t-temas">
+  <div class="miolo">
+    <div>
+      <h2 class="h2" id="t-temas">Escolha um tema</h2>
+      <p class="suave">{total} temas em {BLOCOS_COM_TEMAS.length} grupos. Cada tema mostra, lado a lado, o que os dois planos propõem.</p>
+    </div>
+    <nav class="saltos" aria-label="Ir para um grupo">
+      <span class="saltos-rotulo" aria-hidden="true">Ir para o grupo</span>
+      <ul>
+        {BLOCOS_COM_TEMAS.map((b) => <li><a href={`#${b.ancora}`} aria-label={`Grupo ${b.numero}: ${b.nome}`}>{b.numero}</a></li>)}
+      </ul>
+    </nav>
+    <div class="blocos">
+      {BLOCOS_COM_TEMAS.map((b) => (
+        <section class="bloco" id={b.ancora} aria-labelledby={`${b.ancora}-t`}>
+          <header class="bloco-topo">
+            <span class="bloco-numero" aria-hidden="true">{b.numero}</span>
+            <div>
+              <h3 class="bloco-titulo" id={`${b.ancora}-t`}>{b.nome}</h3>
+              <p class="bloco-conta">{b.temas.length} {b.temas.length === 1 ? 'tema' : 'temas'}</p>
+            </div>
+          </header>
+          <ul class="bloco-lista">
+            {b.temas.map((t) => (
+              <li><a class="tema-link" href={`/tema/${t.slug}/`}><span>{t.nome}</span><span class="tema-seta" aria-hidden="true">›</span></a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </div>
+</section>

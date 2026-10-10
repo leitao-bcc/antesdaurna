@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import Comparador from '../components/Comparador.astro';
+import Indice from '../components/Indice.astro';
 import Busca from '../components/Busca.astro';
 import Quiz from '../components/Quiz.astro';
 import { candidatos } from '../lib/dados.mjs';
@@ -13,7 +13,7 @@ const [a, b] = candidatos;
       <h1>Duas propostas.<br />Uma decisão <em>sua</em>.</h1>
       <p>Compare os planos de governo registrados no TSE, lado a lado, em linguagem simples. Sem opinião nossa, só o que cada candidatura escreveu.</p>
       <div class="hero-acoes">
-        <a class="btn btn-cheio" href="#areas">Comparar por área</a>
+        <a class="btn btn-cheio" href="#temas">Ver os temas</a>
         <a class="btn btn-vazio" href="#quiz">Testar às cegas</a>
       </div>
     </div>
@@ -22,7 +22,7 @@ const [a, b] = candidatos;
       <div class="cartao-cand b" data-lado="b"><b>{b.letra}</b><span>{b.nome}</span></div>
     </div>
   </section>
-  <Comparador />
+  <Indice />
   <Busca />
   <Quiz />
   <section class="miolo" aria-labelledby="t-metodo">
