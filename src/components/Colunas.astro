@@ -20,8 +20,7 @@ const linkPagina = (p: { link_pdf: string; pagina: number }) => (p.pagina > 0 ? 
     return (
       <section class={`col col-${c.id}`} data-lado={c.id}>
         <div class="col-topo">
-          <span class="col-letra" aria-hidden="true">{c.letra}</span>
-          <Cabecalho class="col-nome" id={ancoras ? ancoraPlano(c.id) : undefined}>Candidato {c.letra} · {c.nome}</Cabecalho>
+          <Cabecalho class="col-nome" id={ancoras ? ancoraPlano(c.id) : undefined}>{c.nome}</Cabecalho>
         </div>
         <div class="col-corpo">
           {sit === 'nao-consta' && <p class="nao-consta" data-pagefind-ignore>Não consta no plano.</p>}

@@ -9,7 +9,7 @@ const todas = AREAS.map((a) => {
 });
 const perguntas = todas.filter(Boolean);
 const omitidas = todas.length - perguntas.length;
-const nomes = Object.fromEntries(candidatos.map((c) => [c.id, `Candidato ${c.letra} · ${c.nome}`]));
+const nomes = Object.fromEntries(candidatos.map((c) => [c.id, c.nome]));
 // Escapa "<" para que um texto com </script> nunca feche o bloco antes da hora.
 const json = JSON.stringify({ perguntas, nomes }).replace(/</g, '\\u003c');
 ---
